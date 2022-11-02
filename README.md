@@ -1,2 +1,3 @@
 # US_Natural_Disaster_Analysis
  
+My role in the group has been to assist in the presentation and the creation of the dashboard. For this week, I worked with my team to extrapolate questions to ask from the data. I have searched through datasets as well in order to experiment with other types of visualizations in order to comply with the "extra" portion of our project as the fifth person. I created a graphic of our data flow. After discussion, we have had a diificult time finding data with the same unique FEMA identifier. As a group, we decided to work with what we have, and especially hone in on natural disasters change over time to see if there can be patterns of incidents established in the data. 
