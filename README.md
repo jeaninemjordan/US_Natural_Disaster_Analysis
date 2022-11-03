@@ -43,6 +43,8 @@ Presentation - Gilda
 
 ![](Images/branches.jpg)
 
+### The data has been cleaned using Pandas and Jupyter Notebook. 
+
 ### The Google presentation has been created and is in progress:
 
 https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit?usp=sharing
