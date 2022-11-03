@@ -31,16 +31,24 @@ Thus far, the following has been completed:
 * All / Zoe Lackey -X: The member in the X role will decide which technologies will be used for each step of the project.
 Presentation - Gilda
 
+### Contact information has been exchanged and a Slack group created for the team to communicate within: 
+
+![](Images/slack.jpg)
+
 ### A data set has been selected from Kaggle.com (note: a second data set is being selected to allow for additional metrics to be analyzed):
 
 ![](Images/datasetimage.jpg)
 
-### The Github repository has been created with a branch assigned to all team members. 
+### The Github repository has been created with a branch assigned to all team members:
+
+![](Images/branches.jpg)
 
 ### The Google presentation has been created and is in progress:
+
 https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit?usp=sharing
 
 ### A tentative workflow model has been created:
+
 ![](Images/workflow.jpg)
 
 
