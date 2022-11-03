@@ -23,7 +23,7 @@ Our primary goal in selecting the US Natural Disaster dataset was to observe the
 
 Thus far, the following has been completed:
 
-### Roles have been assigned for the group:
+### Roles for Deliverable week 1 have been assigned as follows:
 
 * Jeanine - Square: The team member in the square role will be responsible for the repository.
 * Deanna - Triangle: The member in the triangle role will create a mockup of a machine learning model. This can even be a diagram that explains how it will work concurrently with the rest of the project steps.
