@@ -43,7 +43,9 @@ Presentation - Gilda
 
 ![](Images/branches.jpg)
 
-### The data has been cleaned using Pandas and Jupyter Notebook (see the cleaning.ipynb file in the repository).
+### The data has been cleaned using Pandas and Jupyter Notebook (see the cleaning.ipynb file in the repository):
+
+![](Images/cleandf.jpg)
 
 ### The Google presentation has been created and is in progress:
 
