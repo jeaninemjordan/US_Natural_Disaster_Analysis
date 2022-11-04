@@ -63,9 +63,15 @@ https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zk
 
 ### A tentative workflow model has been created (example below)
 
+#### Machien Learning Workflow:
+
 * The data has been cleaned using Pandas in Jupyter Lab and will be pre-processed using the same tools. 
-* Scikit-Learn and Tensorflow will be used to import the machine learning algorithms that will be used to classify and predict the data in this analysis. 
-* The Nearest Neighbor (KNN) algorithm will be used to classify the data and make predictions for thsi analysis. 
+* Scikit-Learn will be used to import the machine learning algorithms that will be used to classify and predict the data in this analysis. 
+* StandardScaler and MinMax Scaler will be used to standardize and scale the data. 
+* The K-Means algorithm will be used to cluster the data
+* The Random Forest algorithm will be used to classify the data and make the predictions. 
+
+#### Visiaulization Workflow:
 
 
 ![](Images/workflow.jpg)
