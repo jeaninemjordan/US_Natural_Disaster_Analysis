@@ -63,7 +63,7 @@ https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zk
 
 ### A tentative workflow model has been created:
 
-#### Machien Learning Workflow:
+#### Machine Learning Workflow:
 
 * The data has been cleaned using Pandas in Jupyter Lab and will be pre-processed using the same tools. 
 * Scikit-Learn will be used to import the machine learning algorithms that will be used to classify and predict the data in this analysis. 
