@@ -73,6 +73,8 @@ https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zk
 
 #### Visiaulization Workflow:
 
+* A database created using pgAdmin will be used to create DataFrames that will be used during this presentation. 
+* Tableau will be used to create visualizations for this presentation
 
 ![](Images/workflow.jpg)
 
