@@ -1,5 +1,5 @@
 # US_Natural_Disaster_Analysis
- 
+
  ## A thorough analyisis studying the correlations and patterns of natural disasters across time and regions in the United States using Python.
  
 ![](Images/slide1.jpg)
@@ -79,9 +79,3 @@ The presentation was edited to include more visuals, more succinct language, and
 
 * A database created using pgAdmin and PostGreSQL will be used to create DataFrames that will be used during this presentation. 
 * Tableau will be used to create visualizations for this presentation
-
-
-
-
-
-
