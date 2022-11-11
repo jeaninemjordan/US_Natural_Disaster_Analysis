@@ -69,6 +69,7 @@ Overall, could the results produced in this analysis affect the desirability of 
 ![](Images/cleaningdata_creatingcolumnforyear.jpg)
 
 9.	To conduct analysis on the US regions the disasters occurred in, a dictionary was created that contained the state abbreviations as well as their respective regions. The function “get_region” was created using .apply() to match the region to the states in a new column called “regions”. 
+
 ![](Images/cleaningdata_createdictforregions.jpg)
 ![](Images/cleaningdata_createdictforregions2.jpg)
 
