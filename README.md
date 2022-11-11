@@ -52,8 +52,7 @@ Overall, could the results produced in this analysis affect the desirability of 
 ![](Images/cleaningdata_remove_outlier_disasters.jpg)
 
 3.	The values in the US territories, American Somoa, Guam, Northern Mariana Islands, Puerto Rico and U.S. Virgin Islands, were removed from the dataset to avoid skewing due to these areas having disastrous weather conditions at a higher frequency and to focus more on the data for the mainland US. 
-![](Images/removeterritoriesskew.jpg)
-
+![](Images/cleaningdata_removeterritoriesskew.jpg)
 4.	The date strings were changed into proper date format.
 ![](Images/cleaningdata_changingdateformats.jpg)
 
