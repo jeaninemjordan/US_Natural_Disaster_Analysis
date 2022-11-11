@@ -89,6 +89,8 @@ Overall, could the results produced in this analysis affect the desirability of 
 
 https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit?usp=sharing
 
+14. The transformed nd_df.csv was then exported into the Resources folder of the repository alongside the two new dataframes, incident_declaration.csv and incident_duration.csv. 
+
 ### A tentative workflow model has been created:
 
 #### Machine Learning Model:
