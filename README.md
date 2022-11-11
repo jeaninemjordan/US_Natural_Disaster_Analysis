@@ -61,6 +61,8 @@ Presentation - Gilda
 
 https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit?usp=sharing
 
+The presentation was edited for grammar as well as style in order to rework the language to suit the purpose of a porfessional presentation to a client. 
+
 ### A tentative workflow model has been created:
 
 #### Machine Learning Workflow:
