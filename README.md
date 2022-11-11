@@ -81,3 +81,7 @@ The presentation was edited to include more visuals, more succinct language, and
 * Tableau will be used to create visualizations for this presentation
 * Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by couties (California and Texas) will be used to give further analysis in the presentation. 
 * Additional visualizations will be used to analyze temporal, seasonal data to identify peak seasons for certain kinds of natural disasters in the top 10 states that are proven to be hot spots as well as the states with the least disasters during those seasons. These will be used to give insights to clients about potential states where they can pass pleasant seasons if they live somewhere with a high amount of natural disasters. 
+
+##### Visualization Dashboard overview and proposal 
+
+https://docs.google.com/presentation/d/1hPUla483eCj7iZsOuy-jvjMu_lQ1LE9z70fLbF-9IEc/edit#slide=id.g1f88252dc4_0_162
