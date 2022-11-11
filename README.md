@@ -63,6 +63,8 @@ https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zk
 
 The presentation was edited for grammar as well as style in order to rework the language to suit the purpose of a porfessional presentation to a client. 
 
+The presentation was edited to include more visuals, more succinct language, and speaker notes. 
+
 ### A tentative workflow model has been created:
 
 #### Machine Learning Workflow:
