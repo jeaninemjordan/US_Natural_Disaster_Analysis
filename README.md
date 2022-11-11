@@ -1,5 +1,5 @@
 # US_Natural_Disaster_Analysis
- 
+
  ## A thorough analyisis studying the correlations and patterns of natural disasters across time and regions in the United States using Python.
  
 ![](Images/slide1.jpg)
@@ -61,6 +61,8 @@ Presentation - Gilda
 
 https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit?usp=sharing
 
+The presentation was edited for grammar as well as style in order to rework the language to suit the purpose of a porfessional presentation to a client. 
+
 ### A tentative workflow model has been created:
 
 #### Machine Learning Workflow:
@@ -75,9 +77,3 @@ https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zk
 
 * A database created using pgAdmin and PostGreSQL will be used to create DataFrames that will be used during this presentation. 
 * Tableau will be used to create visualizations for this presentation
-
-
-
-
-
-
