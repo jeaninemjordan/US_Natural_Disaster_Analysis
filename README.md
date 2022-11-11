@@ -51,7 +51,7 @@ Overall, could the results produced in this analysis affect the desirability of 
 2.	Outlier incident types that were at risk of skewing the results in this analysis, such as the COVID-19 pandemic, were removed from the dataset.
 ![](Images/cleaningdata_remove_outlier_disasters.jpg)
 
-3.	The values in the US territories, American Somoa, Guam, Northern Mariana Islands, Puerto Rico and U.S. Virgin Islands, were removed from the dataset due to the propensity for these areas to have significantly more disastrous weather conditions than the rest of the country. 
+3.	The values in the US territories, American Somoa, Guam, Northern Mariana Islands, Puerto Rico and U.S. Virgin Islands, were removed from the dataset to avoid skewing due to these areas having disastrous weather conditions at a higher frequency and to focus more on the data for the mainland US. 
 ![](Images/removeterritoriesskew.jpg)
 
 4.	The date strings were changed into proper date format.
