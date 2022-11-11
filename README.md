@@ -10,3 +10,11 @@
 * Worked with team to map out machine learning and database workflow illustration.
 * Created and started overall presentation in [Google Slides](https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit?usp=sharing) for group final that will be built on over time as we progress with the data.
 ![US_Natural_Disaster_Presentation_Cover.png](Images/US_Natural_Disaster_Presentation_Cover.png)
+
+## Final Project Deliverable 2 - Due November 10th
+* Continued progression on data decisions on making it cleaner and better suited for analyis
+* Built out presentation for more insight and questions about project itself and the questions we hope to answer.
+* IE incident_duration data type was converted from object to integer and AS was removed from the data set 
+* Team worked to create database to push to AWS
+* Started to create Dashboad Story - will be using Tableau to finalize
+* Update overall presentation in [Google Slides](https://docs.google.com/presentation/d/
