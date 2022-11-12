@@ -131,8 +131,11 @@ The following algorithms will be tested and utilized during this analysis:
 
 ### Visualization Workflow:
 
-* Tableau and Ark will be used to create visualizations for this presentation.
+* Tableau and Ark will be used to create visualizations for this presentation. A link to the Tabelau dashboard in progress is below:
+https://public.tableau.com/app/profile/jeanine.jordan/viz/USNaturalDisasters1980-2020/Dashboard1?publish=yes
+
 * Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by couties (California and Texas) will be used to give further analysis in the presentation. 
+
 * Additional visualizations will be used to analyze temporal, seasonal data to identify peak seasons for certain kinds of natural disasters in the top 10 states that are proven to be hot spots as well as the states with the least disasters during those seasons. These will be used to give insights to clients about potential states where they can pass pleasant seasons if they live somewhere with a high amount of natural disasters. 
 
 ##### Visualization Dashboard overview and proposal 
