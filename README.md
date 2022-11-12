@@ -53,7 +53,7 @@ The dataset used during this analaysis, us_disaster_declarations.csv, was source
 * Gilda - X: Create a storyboard of a dashboard that will be used to display the data findings.
 * Zoe Lackey - Circle: Continuing to refine the analysis & is generating images to use in the presentation and with the dashboard. 
 
-### Data Cleaning Process
+### Data Cleaning & Transforming Process
 
 1.	The original data set, us_disaster_declarations.csv, was loaded into Jupyter Notebook and filtered to only show the incidents occuring from 1980 to 2020 using Pandas. The clean_df.csv was produced from these actions and then used to create the nd_df data frame. From this point, columns housing data that was inconsequential to the analysis were removed from the data set.
 
@@ -135,6 +135,9 @@ The following algorithms will be tested and utilized during this analysis:
 ### Database Workflow:
 
 * A database created using pgAdmin and PostGreSQL. 
+![](Images/PostgresDatabase.png)
+* An ERD was created:
+![](Images/ERD.png)
 * All data was loaded into an AWS server
 
 ### Visualization Workflow:
@@ -161,7 +164,7 @@ https://public.tableau.com/app/profile/jeanine.jordan/viz/USNaturalDisasters1980
 
 Additional visualizations will be used to analyze temporal, seasonal data to identify peak seasons for certain kinds of natural disasters in the top 10 states that are proven to be hot spots as well as the states with the least disasters during those seasons. These will be used to give insights to clients about potential states where they can pass pleasant seasons if they live somewhere with a high amount of natural disasters. 
 
-#### Visualization Dashboard overview and proposal 
+#### Visualization Dashboard overview and proposal link below:
 https://docs.google.com/presentation/d/1hPUla483eCj7iZsOuy-jvjMu_lQ1LE9z70fLbF-9IEc/edit#slide=id.g1f88252dc4_0_162
 
 ### Presentation
