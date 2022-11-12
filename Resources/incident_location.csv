@@ -1,11 +1,6 @@
 disaster_number,incident_type,designated_area,state,region,programs_declared
 608,Tornado,"Hartford (County)(in PMSA 1170,3280,5440)",CT,Northeast,1
 609,Earthquake,Imperial (County),CA,West,2
-610,Flood,Manu'a (District),AS,American Samoa,1
-610,Flood,Eastern (District),AS,American Samoa,1
-610,Flood,Swains Island (Island) (County-equivalent),AS,American Samoa,1
-610,Flood,Rose Island (Island) (County-equivalent),AS,American Samoa,1
-610,Flood,Western (District),AS,American Samoa,1
 612,Flood,Jefferson (County),WA,West,1
 612,Flood,Grays Harbor (County),WA,West,1
 612,Flood,Snohomish (County),WA,West,1
@@ -173,11 +168,6 @@ disaster_number,incident_type,designated_area,state,region,programs_declared
 635,Fire,San Bernardino (County),CA,West,2
 635,Fire,Riverside (County),CA,West,2
 635,Fire,Los Angeles (County),CA,West,2
-637,Typhoon,Manu'a (District),AS,American Samoa,2
-637,Typhoon,Eastern (District),AS,American Samoa,2
-637,Typhoon,Swains Island (Island) (County-equivalent),AS,American Samoa,2
-637,Typhoon,Rose Island (Island) (County-equivalent),AS,American Samoa,2
-637,Typhoon,Western (District),AS,American Samoa,2
 638,Severe Storm(s),Russell (County),AL,Southeast,2
 639,Flood,Mobile (County),AL,Southeast,2
 640,Flood,Meagher (County),MT,West,2
@@ -1323,11 +1313,6 @@ disaster_number,incident_type,designated_area,state,region,programs_declared
 784,Flood,Lewis (County),WA,West,2
 784,Flood,Wahkiakum (County),WA,West,1
 784,Flood,Pierce (County),WA,West,1
-785,Hurricane,Eastern (District),AS,American Samoa,2
-785,Hurricane,Manu'a (District),AS,American Samoa,2
-785,Hurricane,Swains Island (Island) (County-equivalent),AS,American Samoa,2
-785,Hurricane,Rose Island (Island) (County-equivalent),AS,American Samoa,2
-785,Hurricane,Western (District),AS,American Samoa,2
 787,Severe Storm(s),Jones (County),MS,Southeast,2
 788,Flood,Cumberland (County),ME,Northeast,2
 788,Flood,Piscataquis (County),ME,Northeast,2
@@ -1946,11 +1931,6 @@ disaster_number,incident_type,designated_area,state,region,programs_declared
 852,Flood,Wahkiakum (County),WA,West,2
 853,Flood,Clatsop (County),OR,West,1
 853,Flood,Tillamook (County),OR,West,1
-855,Hurricane,Swains Island (Island) (County-equivalent),AS,American Samoa,2
-855,Hurricane,Rose Island (Island) (County-equivalent),AS,American Samoa,2
-855,Hurricane,Eastern (District),AS,American Samoa,2
-855,Hurricane,Western (District),AS,American Samoa,2
-855,Hurricane,Manu'a (District),AS,American Samoa,2
 856,Severe Storm(s),Morgan (County),AL,Southeast,2
 856,Severe Storm(s),Jackson (County),AL,Southeast,2
 856,Severe Storm(s),St. Clair (County),AL,Southeast,2
@@ -2981,11 +2961,6 @@ disaster_number,incident_type,designated_area,state,region,programs_declared
 922,Fire,Whitman (County),WA,West,2
 923,Coastal Storm,"Rockingham (County)(in (P)MSA 4160,4760,6450)",NH,Northeast,2
 922,Fire,Pend Oreille (County),WA,West,2
-927,Hurricane,Eastern (District),AS,American Samoa,2
-927,Hurricane,Rose Island (Island) (County-equivalent),AS,American Samoa,2
-927,Hurricane,Manu'a (District),AS,American Samoa,2
-927,Hurricane,Western (District),AS,American Samoa,2
-927,Hurricane,Swains Island (Island) (County-equivalent),AS,American Samoa,2
 930,Flood,McLennan (County),TX,Southwest,1
 930,Flood,Fort Bend (County),TX,Southwest,1
 930,Flood,Eastland (County),TX,Southwest,2
@@ -12893,7 +12868,6 @@ disaster_number,incident_type,designated_area,state,region,programs_declared
 1471,Severe Storm(s),Estill (County),KY,Southeast,4
 1471,Severe Storm(s),Henderson (County),KY,Southeast,4
 1472,Severe Storm(s),Fulton (County),AR,Southeast,2
-1473,Severe Storm(s),Western (District),AS,American Samoa,4
 1472,Severe Storm(s),Poinsett (County),AR,Southeast,4
 1472,Severe Storm(s),Newton (County),AR,Southeast,2
 1472,Severe Storm(s),Benton (County),AR,Southeast,3
@@ -12902,7 +12876,6 @@ disaster_number,incident_type,designated_area,state,region,programs_declared
 1472,Severe Storm(s),Independence (County),AR,Southeast,2
 1472,Severe Storm(s),Phillips (County),AR,Southeast,2
 1472,Severe Storm(s),Perry (County),AR,Southeast,4
-1473,Severe Storm(s),Eastern (District),AS,American Samoa,4
 1472,Severe Storm(s),Columbia (County),AR,Southeast,2
 1472,Severe Storm(s),Faulkner (County),AR,Southeast,3
 1472,Severe Storm(s),St. Francis (County),AR,Southeast,4
@@ -13391,10 +13364,7 @@ disaster_number,incident_type,designated_area,state,region,programs_declared
 1502,Severe Storm(s),Smyth (County),VA,Southeast,3
 1502,Severe Storm(s),Buchanan (County),VA,Southeast,3
 1505,Earthquake,Santa Barbara (County),CA,West,2
-1506,Typhoon,Eastern (District),AS,American Samoa,4
-1506,Typhoon,Manu'a (District),AS,American Samoa,4
 1505,Earthquake,San Luis Obispo (County),CA,West,4
-1506,Typhoon,Western (District),AS,American Samoa,4
 1507,Severe Storm(s),Perry (County),OH,Midwest,2
 1507,Severe Storm(s),Harrison (County),OH,Midwest,2
 1507,Severe Storm(s),Ross (County),OH,Midwest,4
@@ -15286,11 +15256,6 @@ disaster_number,incident_type,designated_area,state,region,programs_declared
 1581,Severe Storm(s),Navajo Nation Reservation (Also NM and UT),AZ,Southwest,2
 1581,Severe Storm(s),Navajo (County),AZ,Southwest,2
 1581,Severe Storm(s),Gila (County),AZ,Southwest,2
-1582,Typhoon,Rose Island (Island) (County-equivalent),AS,American Samoa,3
-1582,Typhoon,Western (District),AS,American Samoa,3
-1582,Typhoon,Manu'a (District),AS,American Samoa,4
-1582,Typhoon,Eastern (District),AS,American Samoa,3
-1582,Typhoon,Swains Island (Island) (County-equivalent),AS,American Samoa,3
 1583,Severe Storm(s),Lincoln (County),NV,West,2
 1583,Severe Storm(s),Clark (County),NV,West,2
 1584,Severe Storm(s),North Slope (Borough),AK,West,2
@@ -20299,11 +20264,6 @@ disaster_number,incident_type,designated_area,state,region,programs_declared
 1858,Severe Storm(s),Dawson (County),GA,Southeast,2
 1858,Severe Storm(s),Cherokee (County),GA,Southeast,3
 1858,Severe Storm(s),Stephens (County),GA,Southeast,3
-1859,Earthquake,Western (District),AS,American Samoa,2
-1859,Earthquake,Swains Island (Island) (County-equivalent),AS,American Samoa,3
-1859,Earthquake,Rose Island (Island) (County-equivalent),AS,American Samoa,3
-1859,Earthquake,Eastern (District),AS,American Samoa,3
-1859,Earthquake,Manu'a (District),AS,American Samoa,3
 1860,Severe Storm(s),Linn (County),KS,Midwest,2
 1860,Severe Storm(s),Anderson (County),KS,Midwest,2
 1860,Severe Storm(s),Franklin (County),KS,Midwest,2
@@ -25252,11 +25212,6 @@ disaster_number,incident_type,designated_area,state,region,programs_declared
 4190,Flood,Mountrail (County),ND,Midwest,2
 4190,Flood,Eddy (County),ND,Midwest,2
 4190,Flood,McHenry (County),ND,Midwest,2
-4192,Severe Storm(s),Western (District),AS,American Samoa,2
-4192,Severe Storm(s),Swains Island (Island) (County-equivalent),AS,American Samoa,2
-4192,Severe Storm(s),Rose Island (Island) (County-equivalent),AS,American Samoa,2
-4192,Severe Storm(s),Eastern (District),AS,American Samoa,2
-4192,Severe Storm(s),Manu'a (District),AS,American Samoa,2
 4193,Earthquake,Napa (County),CA,West,3
 4193,Earthquake,Solano (County),CA,West,3
 4194,Severe Storm(s),Hawaii (County),HI,West,2
@@ -28025,11 +27980,6 @@ disaster_number,incident_type,designated_area,state,region,programs_declared
 4354,Severe Storm(s),Cumberland (County),ME,Northeast,2
 4354,Severe Storm(s),Piscataquis (County),ME,Northeast,2
 4353,Fire,Ventura (County),CA,West,3
-4357,Hurricane,Western (District),AS,American Samoa,3
-4357,Hurricane,Eastern (District),AS,American Samoa,3
-4357,Hurricane,Rose Island (Island) (County-equivalent),AS,American Samoa,3
-4357,Hurricane,Manu'a (District),AS,American Samoa,3
-4357,Hurricane,Swains Island (Island) (County-equivalent),AS,American Samoa,3
 4358,Flood,Knox (County),KY,Southeast,2
 4358,Flood,Harlan (County),KY,Southeast,2
 4358,Flood,Martin (County),KY,Southeast,2
