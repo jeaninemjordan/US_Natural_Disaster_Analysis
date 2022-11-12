@@ -134,11 +134,15 @@ The following algorithms will be tested and utilized during this analysis:
 
 ### Database Workflow:
 
-* A database created using pgAdmin and PostGreSQL. 
-![](Images/PostgresDatabase.png)
-* An ERD was created:
+* A database created using pgAdmin and PostGreSQL.
+* An ERD was created and updated.
+* All data was loaded into an AWS server.
+
+##### Screenshot of database in pgAdmin:
+![](Images/PostgresDatabase.PNG)
+
+##### ERD:
 ![](Images/ERD.png)
-* All data was loaded into an AWS server
 
 ### Visualization Workflow:
 
