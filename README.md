@@ -17,7 +17,7 @@
 * Built out presentation for more insight and questions about project itself and the questions we hope to answer.
 * IE incident_duration data type was converted from object to integer and AS was removed from the data set 
 * Team worked to create database to push to AWS
-* Created Dashboard Blue print for presentation and will get it into Tableau, now that there is a framework
+* Created Dashboard Blue print for presentation and will get it into Tableau now that framework is created
 ![Dashboard_Blueprint.png](Images/Dashboard_Blueprint.png)
 * Update overall presentation in [Google Slides](https://docs.google.com/presentation/d/
 =======
