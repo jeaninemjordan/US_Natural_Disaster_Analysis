@@ -4,7 +4,19 @@
  
 ![](Images/slide1.jpg)
 
-Our team has selected to use FEMA US Disaster Data for all 50 states. The forty years of focus include 1980 - 2020 and details on major disaster events such as:
+### Project Overview 
+
+Natural disasters can be catastrophic to the areas that are affected by them. The primary goal of this analysis is to observe the overall frequency of major disasters by geographical location at the county and state level over time, and to create a model that predicts future incidents past on past events. The results produced in this analysis could be impactful when deciding where to relocate within the United States. 
+
+In this project, the following questions will be answered to create an analysis to provide prospective residents of the US with: 
+
+* What are the states with most number of natural disasters?
+* What are the frequency of the different disaster types?
+* What is the severity and duration of events over time?
+* What are the most disaster prone areas of the United States?
+* How does this information help us to predict the frequency, location and frequency of distasters yet to come?
+
+The following natural disasters will be studied in this analysis:
 
 * Drought
 * Fire
@@ -17,21 +29,23 @@ Our team has selected to use FEMA US Disaster Data for all 50 states. The forty 
 * Tsunami
 * Volcano
 
-Natural disasters can be catastrophic to the areas that are affected.
-
-Our primary goal in selecting the US Natural Disaster dataset was to observe the overall frequency of major disasters by location, County & State.  This information can be useful when trying to relocate to the United States. Additionally, we would like to model the data to potentially predict events in areas based on past events.
-
-In this project, the following questions will be answered to create an analysis to provide prospective residents of the US with: 
-
-* What are the states with most number of natural disasters?
-* What are the frequency of the different disaster types?
-* What is the severity and duration of events over time?
-* What are the most disaster prone areas of the United States?
-* How does this information help us to predict the frequency, location and frequency of distasters yet to come?
-
 Overall, could the results produced in this analysis affect the desirability of the affected areas?
 
-### Roles for Deliverable week 2 have been assigned as follows:
+### Data Sets
+
+The dataset used during this analaysis, us_disaster_declarations.csv, was sourced from Kaggle.com. The content includes a high level summary of all federally declared disasters by FEMA since 1953 and provides metrics such as the incident type, incident time and duration, geography, and whether programs were implemented. 
+
+### Software
+
+* Python 3..13 (Dependencies: Pandas 1.3.5, SciKit-Learn 1.0, Tensorflow 2.10.0)
+* Anaconda 2022.10
+* Jupyter Notebook 6.4.12
+* Amazon Web Services: RDS, S3
+* PostgreSQL 13.7
+* pgAdmin 6.8
+* Ark
+
+### Assigned Roles for Deliverable 2
 
 * Jeanine - Circle/X: Continuing to refine the analysis by cleaning and transforming the dataset to suit the analysis. Managed the Github page & README. 
 * Deanna - Square: Focusing on the machine learning model. Building off of the preliminary model built in the first segment, continue to refine, train, and test the model. Documenting how it ties into the project. 
@@ -39,11 +53,9 @@ Overall, could the results produced in this analysis affect the desirability of 
 * Gilda - X: Create a storyboard of a dashboard that will be used to display the data findings.
 * Zoe Lackey - Circle: Continuing to refine the analysis & is generating images to use in the presentation and with the dashboard. 
 
-### The dataset used during this analaysis, us_disaster_declarations.csv, was sourced from Kaggle.com. The content includes a high level summary of all federally declared disasters by FEMA since 1953 and provides metrics such as the incident type, incident time and duration, geography, and whether programs were implemented. 
+### Data Cleaning Process
 
-![](Images/datasetimage.jpg)
-
-### 1.	The original data set, us_disaster_declarations.csv, was loaded into Jupyter Notebook and filtered to only show the incidents occuring from 1980 to 2020 using Pandas. The clean_df.csv was produced from these actions and then used to create the nd_df data frame. From this point, columns housing data that was inconsequential to the analysis were removed from the data set.
+1.	The original data set, us_disaster_declarations.csv, was loaded into Jupyter Notebook and filtered to only show the incidents occuring from 1980 to 2020 using Pandas. The clean_df.csv was produced from these actions and then used to create the nd_df data frame. From this point, columns housing data that was inconsequential to the analysis were removed from the data set.
 
 ![](Images/cleandf.jpg)
 ![](Images/cleaningdata_removecolumns.jpg)
@@ -87,10 +99,6 @@ Overall, could the results produced in this analysis affect the desirability of 
 
 14. The transformed nd_df.csv was then exported into the Resources folder of the repository alongside the two new dataframes, incident_declaration.csv and incident_duration.csv. 
 
-### The Google presentation is in progress (link below). The presentation was edited for grammar as well as style in order to rework the language to suit the purpose of a porfessional presentation to a client. The presentation was edited to include more visuals, more succinct language, and speaker notes. 
-
-https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit?usp=sharing
-
 ### Machine Learning Model:
 
 The following algorithms will be tested and utilized during this analysis:
@@ -100,27 +108,27 @@ The following algorithms will be tested and utilized during this analysis:
 * Cons: Trouble clustering data where clusters are of varying sizes and density
 
 ##### KNN (Nearest Neighbors):
-* Pros: Pros: Simple, no assumptions
-* Cons: Cons: Slow algorithm
+* Pros: Simple, no assumptions
+* Cons: Slow algorithm
 
 ##### Linear Regression:
 * Pros: Extrapolation beyond dataset, handles overfitting well
 * Cons: Prone to multicollinearity
 
-#### Preliminary data preprocessing:
+##### Preliminary data preprocessing:
 
-#### OneHotEncoder on:
+##### OneHotEncoder on:
      * Incident Type
      * Region
      * State
      
-#### Preliminary Features:
+##### Preliminary Features:
      * Incident Type
      * Incident Month
      * Incident Year
      * Incident Duration
 
-#### Data train and test split:
+##### Data train and test split:
      * X = features without incident duration
      * Y = incident duration
 
@@ -131,13 +139,33 @@ The following algorithms will be tested and utilized during this analysis:
 
 ### Visualization Workflow:
 
-* Tableau and Ark will be used to create visualizations for this presentation. A link to the Tabelau dashboard in progress is below:
+Tableau and Ark will be used to create visualizations for this presentation.  Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by couties (California and Texas) will be used to give further analysis in the presentation. 
+
+#### A link to the Tabelau dashboard in progress is below:
 https://public.tableau.com/app/profile/jeanine.jordan/viz/USNaturalDisasters1980-2020/Dashboard1?publish=yes
 
-* Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by couties (California and Texas) will be used to give further analysis in the presentation. 
+##### Area chart displaying total disasters over time, from 1980-2020, by disaster type:
+![](Images/total_incidents_time.jpg)
 
-* Additional visualizations will be used to analyze temporal, seasonal data to identify peak seasons for certain kinds of natural disasters in the top 10 states that are proven to be hot spots as well as the states with the least disasters during those seasons. These will be used to give insights to clients about potential states where they can pass pleasant seasons if they live somewhere with a high amount of natural disasters. 
+##### Map of the mainland US displaying total recorded disasters by state:
+![](Images/total_incidents_map.jpg)
 
-##### Visualization Dashboard overview and proposal 
+##### Bar chart displaying the total recorded incidents by state and incident type:
+![](Images/total_incidents_state.jpg)
 
+##### Stacked bar chart displaying the total number of incidents by incident type and month of occurance:
+![](Images/total_incidents_month.jpg)
+
+##### Snapshot of the Tableau dashboard in progress:
+![](Images/tableau_dashboard_snapshot.jpg)
+
+Additional visualizations will be used to analyze temporal, seasonal data to identify peak seasons for certain kinds of natural disasters in the top 10 states that are proven to be hot spots as well as the states with the least disasters during those seasons. These will be used to give insights to clients about potential states where they can pass pleasant seasons if they live somewhere with a high amount of natural disasters. 
+
+#### Visualization Dashboard overview and proposal 
 https://docs.google.com/presentation/d/1hPUla483eCj7iZsOuy-jvjMu_lQ1LE9z70fLbF-9IEc/edit#slide=id.g1f88252dc4_0_162
+
+### Presentation
+
+The Google presentation is in progress (link below). The presentation was edited for grammar as well as style in order to rework the language to suit the purpose of a porfessional presentation to a client. The presentation was edited to include more visuals, more succinct language, and speaker notes. 
+
+https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit?usp=sharing
