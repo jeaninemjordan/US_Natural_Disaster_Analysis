@@ -1,0 +1,19 @@
+--Create cleaned table 
+
+CREATE TABLE clean_data (
+     disaster_number VARCHAR(5) NOT NULL,
+	 state VARCHAR(2) NOT NULL,
+	 declaration_type VARCHAR(2) NOT NULL,
+	 declaration_date VARCHAR(25) NOT NULL,
+	 fy_declared INT NOT NULL,
+	 incident_type VARCHAR(50) NOT NULL,
+	 declaration_title VARCHAR(150) NOT NULL,
+	 ih_program_declared VARCHAR(2) NOT NULL,
+	 ia_program_declared VARCHAR(2) NOT NULL,
+	 pa_program_declared VARCHAR(2) NOT NULL,
+	 hm_program_declared VARCHAR(2) NOT NULL,
+     incident_begin_date VARCHAR(25),
+	 incident_end_date VARCHAR(25),
+	 place_code VARCHAR(5),
+	 designated_area VARCHAR(75) NOT NULL
+	 );

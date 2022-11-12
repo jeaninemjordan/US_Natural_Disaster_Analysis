@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # US_Natural_Disaster_Analysis
  
 ## Final Project Deliverable 1 - Due November 3rd
@@ -19,3 +20,5 @@
 * Created Dashboard Blue print for presentation and will get it into Tableau, now that there is a framework
 ![Dashboard_Blueprint.png](Images/Dashboard_Blueprint.png)
 * Update overall presentation in [Google Slides](https://docs.google.com/presentation/d/
+=======
+>>>>>>> 60cb1e257db26fa65312b8132eea85487736daa1
