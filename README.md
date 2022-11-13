@@ -14,7 +14,7 @@ In this project, the following questions will be answered to create an analysis 
 * What are the frequency of the different disaster types?
 * What is the severity and duration of events over time?
 * What are the most disaster prone areas of the United States?
-* How does this information help us to predict the frequency, location and frequency of disasters yet to come?
+* How does this information help us to predict the frequency, location and type of disasters yet to come?
 
 The following natural disasters will be studied in this analysis:
 
