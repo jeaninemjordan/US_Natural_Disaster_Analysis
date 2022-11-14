@@ -1,6 +1,6 @@
 # US_Natural_Disaster_Analysis
 
- ## A thorough analyisis studying the correlations and patterns of natural disasters across time and regions in the United States using Python.
+ ## A thorough analysis studying the correlations and patterns of natural disasters across time and regions in the United States using Python.
  
 ![](Images/slide1.jpg)
 
@@ -14,7 +14,7 @@ In this project, the following questions will be answered to create an analysis 
 * What are the frequency of the different disaster types?
 * What is the severity and duration of events over time?
 * What are the most disaster prone areas of the United States?
-* How does this information help us to predict the frequency, location and frequency of distasters yet to come?
+* How does this information help us to predict the frequency, location and type of disasters yet to come?
 
 The following natural disasters will be studied in this analysis:
 
@@ -33,7 +33,7 @@ Overall, could the results produced in this analysis affect the desirability of 
 
 ### Data Sets
 
-The dataset used during this analaysis, us_disaster_declarations.csv, was sourced from Kaggle.com. The content includes a high level summary of all federally declared disasters by FEMA since 1953 and provides metrics such as the incident type, incident time and duration, geography, and whether programs were implemented. 
+The dataset used during this analysis, us_disaster_declarations.csv, was sourced from Kaggle.com. The content includes a high-level summary of all federally declared disasters by FEMA since 1953 and provides metrics such as the incident type, incident time and duration, geography, and whether programs were implemented. 
 
 ### Software
 
@@ -53,9 +53,9 @@ The dataset used during this analaysis, us_disaster_declarations.csv, was source
 * Gilda - X: Create a storyboard of a dashboard that will be used to display the data findings.
 * Zoe Lackey - Circle: Continuing to refine the analysis & is generating images to use in the presentation and with the dashboard. 
 
-### Data Cleaning Process
+### Data Cleaning & Transforming Process
 
-1.	The original data set, us_disaster_declarations.csv, was loaded into Jupyter Notebook and filtered to only show the incidents occuring from 1980 to 2020 using Pandas. The clean_df.csv was produced from these actions and then used to create the nd_df data frame. From this point, columns housing data that was inconsequential to the analysis were removed from the data set.
+1.	The original data set, us_disaster_declarations.csv, was loaded into Jupyter Notebook and filtered to only show the incidents occurring from 1980 to 2020 using Pandas. The clean_df.csv was produced from these actions and then used to create the nd_df data frame. From this point, columns housing data that was inconsequential to the analysis were removed from the data set.
 
 ![](Images/cleandf.jpg)
 ![](Images/cleaningdata_removecolumns.jpg)
@@ -63,7 +63,7 @@ The dataset used during this analaysis, us_disaster_declarations.csv, was source
 2.	Outlier incident types that were at risk of skewing the results in this analysis, such as the COVID-19 pandemic, were removed from the dataset.
 ![](Images/cleaningdata_remove_outlier_disasters.jpg)
 
-3.	The values in the US territories, American Somoa, Guam, Northern Mariana Islands, Puerto Rico and U.S. Virgin Islands, were removed from the dataset to avoid skewing due to these areas having disastrous weather conditions at a higher frequency and to focus more on the data for the mainland US. 
+3.	The values in the US territories, American Samoa, Guam, Northern Mariana Islands, Puerto Rico and U.S. Virgin Islands, were removed from the dataset to avoid skewing due to these areas having disastrous weather conditions at a higher frequency and to focus more on the data for the mainland US. 
 ![](Images/cleaningdata_removeterritoriesskew.jpg)
 4.	The date strings were changed into proper date format.
 ![](Images/cleaningdata_changingdateformats.jpg)
@@ -91,13 +91,13 @@ The dataset used during this analaysis, us_disaster_declarations.csv, was source
 11.	Additional columns that were proven to be obsolete to this analysis were dropped from the data set. 
 ![](Images/cleaningdata_droppingadditionalcolumns.jpg)
 
-12.	A new dataframe was created to couse the disaster number, incident type, incident month, incident begin year and incident duration. 
+12.	A new data frame was created to house the disaster number, incident type, incident month, incident begin year and incident duration. 
 ![](Images/cleaningdata_creatingincidentdeclarationdf.jpg)
 
 13.	A new data frame was created to house the disaster number, incident type, designated area, state, region and programs declared columns. 
 ![](Images/cleaningdata_creatingincidentlocationdf.jpg)
 
-14. The transformed nd_df.csv was then exported into the Resources folder of the repository alongside the two new dataframes, incident_declaration.csv and incident_duration.csv. 
+14. The transformed nd_df.csv was then exported into the Resources folder of the repository alongside the two new data frames, incident_declaration.csv and incident_duration.csv. 
 
 ### Machine Learning Model:
 
@@ -134,14 +134,21 @@ The following algorithms will be tested and utilized during this analysis:
 
 ### Database Workflow:
 
-* A database created using pgAdmin and PostGreSQL. 
-* All data was loaded into an AWS server
+* A database created using pgAdmin and PostGreSQL.
+* An ERD was created and updated.
+* All data was loaded into an AWS server.
+
+##### Screenshot of database in pgAdmin:
+![](Images/PostgresDatabase.PNG)
+
+##### ERD:
+![](Images/ERD.png)
 
 ### Visualization Workflow:
 
-Tableau and Ark will be used to create visualizations for this presentation.  Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by couties (California and Texas) will be used to give further analysis in the presentation. 
+Tableau and Ark will be used to create visualizations for this presentation.  Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by counties (California and Texas) will be used to give further analysis in the presentation. 
 
-#### A link to the Tabelau dashboard in progress is below:
+#### A link to the Tableau dashboard in progress is below:
 https://public.tableau.com/app/profile/jeanine.jordan/viz/USNaturalDisasters1980-2020/Dashboard1?publish=yes
 
 ##### Area chart displaying total disasters over time, from 1980-2020, by disaster type:
@@ -153,7 +160,7 @@ https://public.tableau.com/app/profile/jeanine.jordan/viz/USNaturalDisasters1980
 ##### Bar chart displaying the total recorded incidents by state and incident type:
 ![](Images/total_incidents_state.jpg)
 
-##### Stacked bar chart displaying the total number of incidents by incident type and month of occurance:
+##### Stacked bar chart displaying the total number of incidents by incident type and month of occurrance:
 ![](Images/total_incidents_month.jpg)
 
 ##### Snapshot of the Tableau dashboard in progress:
@@ -161,7 +168,7 @@ https://public.tableau.com/app/profile/jeanine.jordan/viz/USNaturalDisasters1980
 
 Additional visualizations will be used to analyze temporal, seasonal data to identify peak seasons for certain kinds of natural disasters in the top 10 states that are proven to be hot spots as well as the states with the least disasters during those seasons. These will be used to give insights to clients about potential states where they can pass pleasant seasons if they live somewhere with a high amount of natural disasters. 
 
-#### Visualization Dashboard overview and proposal 
+#### Visualization Dashboard overview and proposal link below:
 https://docs.google.com/presentation/d/1hPUla483eCj7iZsOuy-jvjMu_lQ1LE9z70fLbF-9IEc/edit#slide=id.g1f88252dc4_0_162
 
 ### Presentation
