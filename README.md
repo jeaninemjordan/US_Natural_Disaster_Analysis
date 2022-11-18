@@ -134,9 +134,11 @@ The following algorithms will be tested and utilized during this analysis:
 
 ### Database Workflow:
 
-* A database created using pgAdmin and PostGreSQL.
-* An ERD was created and updated.
-* All data was loaded into an AWS server.
+* Raw data was imported from source into Postgres database
+* Dataframes from Python/Pandas were imported into database
+* Final cleaned joined table was created in Postgres
+* Data was uploaded to AWS to be available for Machine Learning and Visualization
+* ERD was created
 
 ##### Screenshot of database in pgAdmin:
 ![](Images/PostgresDatabase.PNG)
