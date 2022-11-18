@@ -1,0 +1,15 @@
+Overview of Project:
+Natural Disasters in the United States from 1980 to 2020
+
+Tools: Google Slides, Tableau, Postgres, Pandas, Python
+
+We will be looking at the dataset to see which 10 states are the safest to live in due to the frequency of natural disasters. 
+We will be assessing the relative safety of a state due to the number of disastes occurring over the period of time, and the severity of these disasters as calculated with the size of the impact and duration of the impact. 
+
+The data set gives each disaster a unique identifier number that will be used to identify single events that span more time and areas.
+
+We have removed man-made disasters and the pandemic from the data set as well, and dropped U.S. territories. 
+
+We have had discussions on finding complimentary datasets that allow for analysis of trends such as migration, climate change, and economic costs of the disasters. We are still working on this part.
+
+We are deciding on our metrics within this dataset to establish the severity of the disasters. 

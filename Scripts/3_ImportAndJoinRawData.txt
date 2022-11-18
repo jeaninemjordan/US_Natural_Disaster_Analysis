@@ -1,0 +1,51 @@
+--Create incident_location_raw and_raw table 
+
+CREATE TABLE incident_location_raw (
+     disaster_number VARCHAR(5) NOT NULL,
+	 incident_type VARCHAR(50) NOT NULL,
+	 designated_area VARCHAR(75) NOT NULL,
+	 state VARCHAR(2) NOT NULL, 
+	 region VARCHAR(25) NOT NULL,
+	 programs_declared INT NOT NULL,
+PRIMARY KEY (disaster_number)
+	 );
+
+CREATE TABLE nd_raw (
+     disaster_number VARCHAR(5) NOT NULL,
+	 state VARCHAR(2) NOT NULL,
+	 declaration_type VARCHAR(2) NOT NULL,
+	 incident_type VARCHAR(50) NOT NULL,
+	 declaration_title VARCHAR(150) NOT NULL,
+     incident_begin_date DATE,
+	 incident_end_date DATE,
+	 designated_area VARCHAR(75) NOT NULL,
+	 incident_month INT,
+	 incident_duration VARCHAR(7),
+	 incident_begin_year INT,
+FOREIGN KEY (disaster_number) REFERENCES incident_location_raw (disaster_number)
+	 );
+	 
+SELECT * FROM nd_raw;
+
+SELECT * FROM incident_location_raw;
+
+-- Joining incident_location_raw to to nd_raw
+
+CREATE TABLE nd_final AS
+SELECT
+	nd_raw.disaster_number,
+	nd_raw.state,
+	nd_raw.declaration_type,
+	nd_raw.incident_type,
+	nd_raw.declaration_title,
+    nd_raw.incident_begin_date,
+	nd_raw.incident_end_date,
+	nd_raw.designated_area,
+	nd_raw.incident_month,
+	nd_raw.incident_duration,
+	nd_raw.incident_begin_year,
+	incident_location_raw.region,
+    incident_location_raw.programs_declared
+FROM nd_raw
+LEFT JOIN incident_location_raw
+ON nd_raw.disaster_number = incident_location_raw.disaster_number;
