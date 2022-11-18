@@ -139,7 +139,7 @@ The following algorithms will be tested and utilized during this analysis:
 * ERD was created
 
 ##### Screenshot of database in pgAdmin:
-![](Images/PostgresDatabase.PNG)
+![](Images/PostgresDatabase_Final.PNG)
 
 ##### ERD:
 ![](Images/ERD.png)
