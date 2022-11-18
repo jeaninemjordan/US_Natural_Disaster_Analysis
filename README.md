@@ -10,7 +10,7 @@ Natural disasters can be catastrophic to the areas that are affected by them. Th
 
 In this project, the following questions will be answered to create an analysis to provide prospective residents of the US with: 
 
-* What are the states with most number of natural disasters?
+* What are the states with most number of major disasters?
 * What are the frequency of the different disaster types?
 * What is the severity and duration of events over time?
 * What are the most disaster prone areas of the United States?
@@ -28,8 +28,6 @@ The following natural disasters will be studied in this analysis:
 * Snow
 * Tsunami
 * Volcano
-
-Overall, could the results produced in this analysis affect the desirability of the affected areas?
 
 ### Data Sets
 
