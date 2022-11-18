@@ -149,7 +149,7 @@ The following algorithms will be tested and utilized during this analysis:
 Tableau and Ark will be used to create visualizations for this presentation.  Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by counties (California and Texas) will be used to give further analysis in the presentation. 
 
 #### A link to the Tableau dashboard in progress is below:
-https://public.tableau.com/app/profile/jeanine.jordan/viz/USNaturalDisasters1980-2020/Dashboard1?publish=yes
+https://public.tableau.com/views/US_Natural_Disaster_Analysis/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 ##### Area chart displaying total disasters over time, from 1980-2020, by disaster type:
 ![](Images/total_incidents_time.jpg)
