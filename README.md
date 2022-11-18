@@ -3,6 +3,7 @@
  ## A thorough analysis studying the correlations and patterns of natural disasters across time and regions in the United States using Python.
  
 ![](Images/slide1.jpg)
+"Climate is what we expect, weather is what we get." - Mark Twain
 
 ### Project Overview 
 
