@@ -63,39 +63,52 @@ The dataset used during this analysis, us_disaster_declarations.csv, was sourced
 
 3.	The values in the US territories, American Samoa, Guam, Northern Mariana Islands, Puerto Rico and U.S. Virgin Islands, were removed from the dataset to avoid skewing due to these areas having disastrous weather conditions at a higher frequency and to focus more on the data for the mainland US. 
 ![](Images/cleaningdata_removeterritoriesskew.jpg)
+
 4.	The date strings were changed into proper date format.
 ![](Images/cleaningdata_changingdateformats.jpg)
 
-5.	A new column was created to house the numeric month value each incident began so analysis could be conducted on what time of the year incidents occurred. 
+5. Duplicate incident reports were removed from the data set. 
+![](Images/cleaningdata_removeduplicates.jpg)
+
+6.	A new column was created to house the numeric month value each incident began so analysis could be conducted on what time of the year incidents occurred. 
 ![](Images/cleaningdata_creatingmonthcolumn.jpg)
 
-6.	A new column was created, incident_duration, by subtracting the incident_begin_date column from the incident_end_date column This allows analysis to be conducted on the duration of each incident. The data type of the column was then changed from an object to an integer. 
+7.	A new column was created, incident_duration, by subtracting the incident_begin_date column from the incident_end_date column This allows analysis to be conducted on the duration of each incident. The data type of the column was then changed from an object to an integer. 
 ![](Images/cleaningdata_creatingincidentdurationcolumn.jpg)
 
-7.	All zero values in the incident duration column represent incidents that were less than a day in length and were changed to the number 1 in the data set. 
+8.	All zero values in the incident duration column represent incidents that were less than a day in length and were changed to the number 1 in the data set. 
 ![](Images/cleaningdata_changingzerovaluestoone.jpg)
 
-8.	A new column was created to house the year each incident began. 
+9.	A new column was created to house the year each incident began. 
 ![](Images/cleaningdata_creatingcolumnforyear.jpg)
 
-9.	To conduct analysis on the US regions the disasters occurred in, a dictionary was created that contained the state abbreviations as well as their respective regions. The function “get_region” was created using .apply() to match the region to the states in a new column called “regions”. 
+10.	To conduct analysis on the US regions the disasters occurred in, a dictionary was created that contained the state abbreviations as well as their respective regions. The function “get_region” was created using .apply() to match the region to the states in a new column called “regions”. 
 
 ![](Images/cleaningdata_createdictforregions.jpg)
 ![](Images/cleaningdata_createdictforregions2.jpg)
 
-10.	A new column was created that combined the values from all four “program_declared” columns in the dataset. 
+11.	A new column was created that combined the values from all four “program_declared” columns in the dataset. 
 ![](Images/cleaningdata_programsdelcared.jpg)
 
-11.	Additional columns that were proven to be obsolete to this analysis were dropped from the data set. 
+12.	A new column was created that housed the season each incident occured within. 
+![](Images/cleaningdata_seasonscolumn.jpg)
+
+13. A new column was created that housed the numeric group for the seasons.
+![](Images/cleaningdata_numericseasons.jpg)
+
+14. A new column column was created that housed the numeric group for the regions.
+![](Images/cleaningdatanumericregion.jpg)
+
+15.	Additional columns that were proven to be obsolete to this analysis were dropped from the data set. 
 ![](Images/cleaningdata_droppingadditionalcolumns.jpg)
 
-12.	A new data frame was created to house the disaster number, incident type, incident month, incident begin year and incident duration. 
+16.	A new data frame was created to house the disaster number, incident type, incident month, incident begin year and incident duration. 
 ![](Images/cleaningdata_creatingincidentdeclarationdf.jpg)
 
-13.	A new data frame was created to house the disaster number, incident type, designated area, state, region and programs declared columns. 
+17.	A new data frame was created to house the disaster number, incident type, designated area, state, region and programs declared columns. 
 ![](Images/cleaningdata_creatingincidentlocationdf.jpg)
 
-14. The transformed nd_df.csv was then exported into the Resources folder of the repository alongside the two new data frames, incident_declaration.csv and incident_duration.csv. 
+18. The transformed nd_df.csv was then exported into the Resources folder of the repository alongside the two new data frames, incident_declaration.csv and incident_duration.csv. 
 
 ### Machine Learning Model:
 
