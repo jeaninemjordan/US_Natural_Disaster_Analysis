@@ -41,7 +41,7 @@ The dataset used during this analysis, us_disaster_declarations.csv, was sourced
 * Amazon Web Services: RDS, S3
 * PostgreSQL 13.7
 * pgAdmin 6.8
-* Ark
+* ArcGIS Pro 3.0
 
 ### Assigned Roles for Deliverable 2
 
