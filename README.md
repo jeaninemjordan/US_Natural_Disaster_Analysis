@@ -6,11 +6,11 @@
 
 ### Project Overview 
 
-Natural disasters can be catastrophic to the areas that are affected by them. The primary goal of this analysis is to observe the overall frequency of major disasters by geographical location at the county and state level over time, and to create a model that predicts future incidents past on past events. The results produced in this analysis could be impactful when deciding where to relocate within the United States. 
+Natural disasters can be catastrophic to the areas that are affected by them. The primary goal of this analysis is to observe the overall frequency of major disasters by geographical location at the regional and state level over time, and to create a model that predicts future incidents past on past events. The results produced in this analysis could be impactful when deciding where to relocate within the United States. 
 
 In this project, the following questions will be answered to create an analysis to provide prospective residents of the US with: 
 
-* What are the states with most number of natural disasters?
+* What are the states with most number of major disasters?
 * What are the frequency of the different disaster types?
 * What is the severity and duration of events over time?
 * What are the most disaster prone areas of the United States?
@@ -29,8 +29,6 @@ The following natural disasters will be studied in this analysis:
 * Tsunami
 * Volcano
 
-Overall, could the results produced in this analysis affect the desirability of the affected areas?
-
 ### Data Sets
 
 The dataset used during this analysis, us_disaster_declarations.csv, was sourced from Kaggle.com. The content includes a high-level summary of all federally declared disasters by FEMA since 1953 and provides metrics such as the incident type, incident time and duration, geography, and whether programs were implemented. 
@@ -43,7 +41,7 @@ The dataset used during this analysis, us_disaster_declarations.csv, was sourced
 * Amazon Web Services: RDS, S3
 * PostgreSQL 13.7
 * pgAdmin 6.8
-* Ark
+* ArcGIS Pro 3.0
 
 ### Assigned Roles for Deliverable 2
 
@@ -134,22 +132,24 @@ The following algorithms will be tested and utilized during this analysis:
 
 ### Database Workflow:
 
-* A database created using pgAdmin and PostGreSQL.
-* An ERD was created and updated.
-* All data was loaded into an AWS server.
+* Raw data was imported from source into Postgres database
+* Dataframes from Python/Pandas were imported into database
+* Final cleaned joined table was created in Postgres
+* Data was uploaded to AWS to be available for Machine Learning and Visualization
+* ERD was created
 
 ##### Screenshot of database in pgAdmin:
-![](Images/PostgresDatabase.PNG)
+![](Images/PostgresDatabase_Final.PNG)
 
 ##### ERD:
 ![](Images/ERD.png)
 
 ### Visualization Workflow:
 
-Tableau and Ark will be used to create visualizations for this presentation.  Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by counties (California and Texas) will be used to give further analysis in the presentation. 
+Tableau and ArcGIS Pro 3.0 will be used to create visualizations for this presentation.  Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by counties (California and Texas) will be used to give further analysis in the presentation. 
 
 #### A link to the Tableau dashboard in progress is below:
-https://public.tableau.com/app/profile/jeanine.jordan/viz/USNaturalDisasters1980-2020/Dashboard1?publish=yes
+https://public.tableau.com/views/US_Natural_Disaster_Analysis/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 ##### Area chart displaying total disasters over time, from 1980-2020, by disaster type:
 ![](Images/total_incidents_time.jpg)
