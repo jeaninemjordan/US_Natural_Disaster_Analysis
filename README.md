@@ -146,7 +146,7 @@ The following algorithms will be tested and utilized during this analysis:
 
 ### Visualization Workflow:
 
-Tableau and Ark will be used to create visualizations for this presentation.  Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by counties (California and Texas) will be used to give further analysis in the presentation. 
+Tableau and ArcGIS Pro 3.0 will be used to create visualizations for this presentation.  Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by counties (California and Texas) will be used to give further analysis in the presentation. 
 
 #### A link to the Tableau dashboard in progress is below:
 https://public.tableau.com/views/US_Natural_Disaster_Analysis/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
