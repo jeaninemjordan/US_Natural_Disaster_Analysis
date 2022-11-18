@@ -29,6 +29,8 @@ The following natural disasters will be studied in this analysis:
 * Tsunami
 * Volcano
 
+Overall, could this analysis show potential movers climatic incentives or deterrents to assist them in choosing where in the US to live next?  
+
 ### Data Sets
 
 The dataset used during this analysis, us_disaster_declarations.csv, was sourced from Kaggle.com. The content includes a high-level summary of all federally declared disasters by FEMA since 1953 and provides metrics such as the incident type, incident time and duration, geography, and whether programs were implemented. 
@@ -43,13 +45,13 @@ The dataset used during this analysis, us_disaster_declarations.csv, was sourced
 * pgAdmin 6.8
 * ArcGIS Pro 3.0
 
-### Assigned Roles for Deliverable 2
+### Assigned Roles for Deliverable 3
 
-* Jeanine - Circle/X: Continuing to refine the analysis by cleaning and transforming the dataset to suit the analysis. Managed the Github page & README. 
-* Deanna - Square: Focusing on the machine learning model. Building off of the preliminary model built in the first segment, continue to refine, train, and test the model. Documenting how it ties into the project. 
-* Kirsten - Triangle: Upscaling the project's database. Created the mockup database and is now leveling it to use the full static dataset. Making sure the database is integrated fully and that it interfaces with the project. Created a join from two tables and a connection string linking the code to the database. 
-* Gilda - X: Create a storyboard of a dashboard that will be used to display the data findings.
-* Zoe Lackey - Circle: Continuing to refine the analysis & is generating images to use in the presentation and with the dashboard. 
+* Jeanine - Square: Managed the Github repository & README. Continued to clean and transform the dataset to suit the analysis & created visualizations.  
+* Deanna - X: Continued to refine, train and test the machine learning models chosen, created visualizations. 
+* Kirsten - X: Tested database integration, continued to enhance database functions, created visualizations using ArcGIS Pro 3.0.
+* Gilda - Triangle/Circle: Continued to develop and refine the presentation by working on the storyboard, visualizations and dashboard.
+* Zoe Lackey - Triangle/Circle: Continued to develop and refine the presentation by working on the storyboard, visualizations and dashboard.
 
 ### Data Cleaning & Transforming Process
 
@@ -114,6 +116,9 @@ The dataset used during this analysis, us_disaster_declarations.csv, was sourced
 
 The following algorithms will be tested and utilized during this analysis:
 
+##### ARIMA (AutoRegressive Integrated Moving Average):
+* ARIMA is a forecasting algorithm that predicts a time series based on its own past values. ARIMA models use differencing to convert a non-stationary time series into stationary ones, predicting future values from historical data.
+
 ##### KMeans: 
 * Pros: Easy implementation and interpretation, guarantees convergence.
 * Cons: Trouble clustering data where clusters are of varying sizes and density
@@ -170,13 +175,13 @@ https://public.tableau.com/views/US_Natural_Disaster_Analysis/Story1?:language=e
 ##### Area chart displaying total disasters over time, from 1980-2020, by disaster type:
 ![](Images/total_incidents_time.jpg)
 
-##### Map of the mainland US displaying total recorded disasters by state:
+##### Map of the US (excluding territories and commonwealths) displaying total recorded disasters by state:
 ![](Images/total_incidents_map.jpg)
 
-##### Bar chart displaying the total recorded incidents by state and incident type:
+##### Stacked bar chart displaying the total recorded incidents by state and incident type:
 ![](Images/total_incidents_state.jpg)
 
-##### Stacked bar chart displaying the total number of incidents by incident type and month of occurrence:
+##### Density chart displaying the total number of incidents by incident type and month of occurrence:
 ![](Images/total_incidents_month.jpg)
 
 ##### Snapshot of the Tableau dashboard in progress:
