@@ -160,19 +160,18 @@ https://public.tableau.com/views/US_Natural_Disaster_Analysis/Story1?:language=e
 ##### Bar chart displaying the total recorded incidents by state and incident type:
 ![](Images/total_incidents_state.jpg)
 
-##### Stacked bar chart displaying the total number of incidents by incident type and month of occurrance:
+##### Stacked bar chart displaying the total number of incidents by incident type and month of occurrence:
 ![](Images/total_incidents_month.jpg)
 
 ##### Snapshot of the Tableau dashboard in progress:
 ![](Images/tableau_dashboard_snapshot.jpg)
 
-Additional visualizations will be used to analyze temporal, seasonal data to identify peak seasons for certain kinds of natural disasters in the top 10 states that are proven to be hot spots as well as the states with the least disasters during those seasons. These will be used to give insights to clients about potential states where they can pass pleasant seasons if they live somewhere with a high amount of natural disasters. 
+Additional visualizations will be used to analyze temporal, seasonal data to identify peak seasons for certain kinds of natural disasters in the top 10 states that are proven to be hot spots as well as the states with the least disasters during those seasons. These will be used to give insights to clients about potential states where they can pass pleasant seasons if they live somewhere with a high number of natural disasters. 
 
 #### Visualization Dashboard overview and proposal link below:
 https://docs.google.com/presentation/d/1hPUla483eCj7iZsOuy-jvjMu_lQ1LE9z70fLbF-9IEc/edit#slide=id.g1f88252dc4_0_162
 
 ### Presentation
 
-The Google presentation is in progress (link below). The presentation was edited for grammar as well as style in order to rework the language to suit the purpose of a porfessional presentation to a client. The presentation was edited to include more visuals, more succinct language, and speaker notes. 
+The Google presentation is in progress (link below). The presentation was edited for grammar as well as style in order to rework the language to suit the purpose of a professional presentation to a client. The presentation was edited to include more visuals, more succinct language, and speaker notes. 
 
-https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit?usp=sharing
