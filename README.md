@@ -3,14 +3,15 @@
  ## A thorough analysis studying the correlations and patterns of natural disasters across time and regions in the United States using Python.
  
 ![](Images/slide1.jpg)
+"Climate is what we expect, weather is what we get." - Mark Twain
 
 ### Project Overview 
 
-Natural disasters can be catastrophic to the areas that are affected by them. The primary goal of this analysis is to observe the overall frequency of major disasters by geographical location at the county and state level over time, and to create a model that predicts future incidents past on past events. The results produced in this analysis could be impactful when deciding where to relocate within the United States. 
+Natural disasters can be catastrophic to the areas that are affected by them. The primary goal of this analysis is to observe the overall frequency of major disasters by geographical location at the regional and state level over time, and to create a model that predicts future incidents past on past events. The results produced in this analysis could be impactful when deciding where to relocate within the United States. 
 
 In this project, the following questions will be answered to create an analysis to provide prospective residents of the US with: 
 
-* What are the states with most number of natural disasters?
+* What are the states with most number of major disasters?
 * What are the frequency of the different disaster types?
 * What is the severity and duration of events over time?
 * What are the most disaster prone areas of the United States?
@@ -29,7 +30,7 @@ The following natural disasters will be studied in this analysis:
 * Tsunami
 * Volcano
 
-Overall, could the results produced in this analysis affect the desirability of the affected areas?
+Overall, could this analysis show potential movers climatic incentives or deterrents to assist them in choosing where in the US to live next?  
 
 ### Data Sets
 
@@ -43,15 +44,15 @@ The dataset used during this analysis, us_disaster_declarations.csv, was sourced
 * Amazon Web Services: RDS, S3
 * PostgreSQL 13.7
 * pgAdmin 6.8
-* Ark
+* ArcGIS Pro 3.0
 
-### Assigned Roles for Deliverable 2
+### Assigned Roles for Deliverable 3
 
-* Jeanine - Circle/X: Continuing to refine the analysis by cleaning and transforming the dataset to suit the analysis. Managed the Github page & README. 
-* Deanna - Square: Focusing on the machine learning model. Building off of the preliminary model built in the first segment, continue to refine, train, and test the model. Documenting how it ties into the project. 
-* Kirsten - Triangle: Upscaling the project's database. Created the mockup database and is now leveling it to use the full static dataset. Making sure the database is integrated fully and that it interfaces with the project. Created a join from two tables and a connection string linking the code to the database. 
-* Gilda - X: Create a storyboard of a dashboard that will be used to display the data findings.
-* Zoe Lackey - Circle: Continuing to refine the analysis & is generating images to use in the presentation and with the dashboard. 
+* Jeanine - Square: Managed the Github repository & README. Continued to clean and transform the dataset to suit the analysis & created visualizations.  
+* Deanna - X: Continued to refine, train and test the machine learning models chosen, created visualizations. 
+* Kirsten - X: Tested database integration, continued to enhance database functions, created visualizations using ArcGIS Pro 3.0.
+* Gilda - Triangle/Circle: Continued to develop and refine the presentation by working on the storyboard, visualizations and dashboard.
+* Zoe Lackey - Triangle/Circle: Continued to develop and refine the presentation by working on the storyboard, visualizations and dashboard.
 
 ### Data Cleaning & Transforming Process
 
@@ -65,43 +66,59 @@ The dataset used during this analysis, us_disaster_declarations.csv, was sourced
 
 3.	The values in the US territories, American Samoa, Guam, Northern Mariana Islands, Puerto Rico and U.S. Virgin Islands, were removed from the dataset to avoid skewing due to these areas having disastrous weather conditions at a higher frequency and to focus more on the data for the mainland US. 
 ![](Images/cleaningdata_removeterritoriesskew.jpg)
+
 4.	The date strings were changed into proper date format.
 ![](Images/cleaningdata_changingdateformats.jpg)
 
-5.	A new column was created to house the numeric month value each incident began so analysis could be conducted on what time of the year incidents occurred. 
+5. Duplicate incident reports were removed from the data set. 
+![](Images/cleaningdata_removeduplicates.jpg)
+
+6.	A new column was created to house the numeric month value each incident began so analysis could be conducted on what time of the year incidents occurred. 
 ![](Images/cleaningdata_creatingmonthcolumn.jpg)
 
-6.	A new column was created, incident_duration, by subtracting the incident_begin_date column from the incident_end_date column This allows analysis to be conducted on the duration of each incident. The data type of the column was then changed from an object to an integer. 
+7.	A new column was created, incident_duration, by subtracting the incident_begin_date column from the incident_end_date column This allows analysis to be conducted on the duration of each incident. The data type of the column was then changed from an object to an integer. 
 ![](Images/cleaningdata_creatingincidentdurationcolumn.jpg)
 
-7.	All zero values in the incident duration column represent incidents that were less than a day in length and were changed to the number 1 in the data set. 
+8.	All zero values in the incident duration column represent incidents that were less than a day in length and were changed to the number 1 in the data set. 
 ![](Images/cleaningdata_changingzerovaluestoone.jpg)
 
-8.	A new column was created to house the year each incident began. 
+9.	A new column was created to house the year each incident began. 
 ![](Images/cleaningdata_creatingcolumnforyear.jpg)
 
-9.	To conduct analysis on the US regions the disasters occurred in, a dictionary was created that contained the state abbreviations as well as their respective regions. The function “get_region” was created using .apply() to match the region to the states in a new column called “regions”. 
+10.	To conduct analysis on the US regions the disasters occurred in, a dictionary was created that contained the state abbreviations as well as their respective regions. The function “get_region” was created using .apply() to match the region to the states in a new column called “regions”. 
 
 ![](Images/cleaningdata_createdictforregions.jpg)
 ![](Images/cleaningdata_createdictforregions2.jpg)
 
-10.	A new column was created that combined the values from all four “program_declared” columns in the dataset. 
+11.	A new column was created that combined the values from all four “program_declared” columns in the dataset. 
 ![](Images/cleaningdata_programsdelcared.jpg)
 
-11.	Additional columns that were proven to be obsolete to this analysis were dropped from the data set. 
+12.	A new column was created that housed the season each incident occured within. 
+![](Images/cleaningdata_seasonscolumn.jpg)
+
+13. A new column was created that housed the numeric group for the seasons.
+![](Images/cleaningdata_numericseasons.jpg)
+
+14. A new column column was created that housed the numeric group for the regions.
+![](Images/cleaningdatanumericregion.jpg)
+
+15.	Additional columns that were proven to be obsolete to this analysis were dropped from the data set. 
 ![](Images/cleaningdata_droppingadditionalcolumns.jpg)
 
-12.	A new data frame was created to house the disaster number, incident type, incident month, incident begin year and incident duration. 
+16.	A new data frame was created to house the disaster number, incident type, incident month, incident begin year and incident duration. 
 ![](Images/cleaningdata_creatingincidentdeclarationdf.jpg)
 
-13.	A new data frame was created to house the disaster number, incident type, designated area, state, region and programs declared columns. 
+17.	A new data frame was created to house the disaster number, incident type, designated area, state, region and programs declared columns. 
 ![](Images/cleaningdata_creatingincidentlocationdf.jpg)
 
-14. The transformed nd_df.csv was then exported into the Resources folder of the repository alongside the two new data frames, incident_declaration.csv and incident_duration.csv. 
+18. The transformed nd_df.csv was then exported into the Resources folder of the repository alongside the two new data frames, incident_declaration.csv and incident_duration.csv. 
 
 ### Machine Learning Model:
 
 The following algorithms will be tested and utilized during this analysis:
+
+##### ARIMA (AutoRegressive Integrated Moving Average):
+* ARIMA is a forecasting algorithm that predicts a time series based on its own past values. ARIMA models use differencing to convert a non-stationary time series into stationary ones, predicting future values from historical data.
 
 ##### KMeans: 
 * Pros: Easy implementation and interpretation, guarantees convergence.
@@ -134,45 +151,50 @@ The following algorithms will be tested and utilized during this analysis:
 
 ### Database Workflow:
 
-* A database created using pgAdmin and PostGreSQL.
-* An ERD was created and updated.
-* All data was loaded into an AWS server.
+* Raw data was imported from source into Postgres database
+* Dataframes from Python/Pandas were imported into database
+* Final cleaned joined table was created in Postgres
+* Data was uploaded to AWS to be available for Machine Learning and Visualization
+* ERD was created
 
-##### Screenshot of database in pgAdmin:
-![](Images/PostgresDatabase.PNG)
+##### Database:
+![](Images/PostgresDatabase_Final.PNG)
 
 ##### ERD:
 ![](Images/ERD.png)
 
 ### Visualization Workflow:
 
-Tableau and Ark will be used to create visualizations for this presentation.  Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by counties (California and Texas) will be used to give further analysis in the presentation. 
+Tableau and ArcGIS Pro 3.0 will be used to create visualizations for this presentation.  Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by counties (California and Texas) will be used to give further analysis in the presentation. 
+
+##### ArcGIS Pro 3.0 video visualization of the number of incidents in each state by year:
+![](Images/EventsPerStateByYearFormat.webp)
 
 #### A link to the Tableau dashboard in progress is below:
-https://public.tableau.com/app/profile/jeanine.jordan/viz/USNaturalDisasters1980-2020/Dashboard1?publish=yes
+https://public.tableau.com/views/US_Natural_Disaster_Analysis/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
 ##### Area chart displaying total disasters over time, from 1980-2020, by disaster type:
 ![](Images/total_incidents_time.jpg)
 
-##### Map of the mainland US displaying total recorded disasters by state:
+##### Map of the US (excluding territories and commonwealths) displaying total recorded disasters by state:
 ![](Images/total_incidents_map.jpg)
 
-##### Bar chart displaying the total recorded incidents by state and incident type:
+##### Stacked bar chart displaying the total recorded incidents by state and incident type:
 ![](Images/total_incidents_state.jpg)
 
-##### Stacked bar chart displaying the total number of incidents by incident type and month of occurrance:
+##### Density chart displaying the total number of incidents by incident type and month of occurrence:
 ![](Images/total_incidents_month.jpg)
 
 ##### Snapshot of the Tableau dashboard in progress:
 ![](Images/tableau_dashboard_snapshot.jpg)
 
-Additional visualizations will be used to analyze temporal, seasonal data to identify peak seasons for certain kinds of natural disasters in the top 10 states that are proven to be hot spots as well as the states with the least disasters during those seasons. These will be used to give insights to clients about potential states where they can pass pleasant seasons if they live somewhere with a high amount of natural disasters. 
+Additional visualizations will be used to analyze temporal, seasonal data to identify peak seasons for certain kinds of natural disasters in the top 10 states that are proven to be hot spots as well as the states with the least disasters during those seasons. These will be used to give insights to clients about potential states where they can pass pleasant seasons if they live somewhere with a high number of natural disasters. 
 
 #### Visualization Dashboard overview and proposal link below:
 https://docs.google.com/presentation/d/1hPUla483eCj7iZsOuy-jvjMu_lQ1LE9z70fLbF-9IEc/edit#slide=id.g1f88252dc4_0_162
 
 ### Presentation
 
-The Google presentation is in progress (link below). The presentation was edited for grammar as well as style in order to rework the language to suit the purpose of a porfessional presentation to a client. The presentation was edited to include more visuals, more succinct language, and speaker notes. 
+The Google presentation is in progress (link below). The presentation was edited for grammar as well as style in order to rework the language to suit the purpose of a professional presentation to a client. The presentation was edited to include more visuals, more succinct language, and speaker notes. 
 
-https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit?usp=sharing
+https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit#slide=id.p
