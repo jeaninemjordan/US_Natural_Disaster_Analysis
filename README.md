@@ -195,13 +195,43 @@ The following algorithms will be tested and utilized during this analysis:
 
 #### Midwest
 
+##### Midwest Prediction
+![](Images/Midwest_Predictions.png)
+
+##### Midwest Time Series
+![](Images/Midwest_Time_Series.png)
+
 #### Southeast
+
+##### Southeast Prediction
+![](Images/Southeast_Predictions.png)
+
+##### Southeast Time Series
+![](Images/Southeast_Predictions.png)
 
 #### Northeast
 
+##### Northeast Prediction
+![](Images/Northeast_Predictions.png)
+
+##### Northeast Time Series
+![](Images/Northeast_Predictions.png)
+
 #### Southwest
 
+##### Southwest Prediction
+![](Images/Southwest_Predictions.png)
+
+##### Southwest Time Series
+![](Images/Southwest_Predictions.png)
+
 #### West
+
+##### West Prediction
+![](Images/West_Predictions.png)
+
+##### West Time Series
+![](Images/West_Predictions.png)
 
 ### Database Workflow:
 
