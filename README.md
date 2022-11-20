@@ -148,6 +148,60 @@ The following algorithms will be tested and utilized during this analysis:
 ##### Data train and test split:
      * X = features without incident duration
      * Y = incident duration
+     
+### Top 5 States: time series and preditions using ARIMA (AutoRegressive Integrated Moving Average):
+
+#### Alabama
+
+##### Predictions:
+![](Images/Alabama_Predictions.png)
+
+##### Time Series:
+![](Images/Alabama_Time_Series.png)
+
+#### California
+
+##### Predictons:
+![](Images/California_Predictions.png)
+
+##### Time Series
+![](Images/California_Time_Series.png)
+
+#### Florida
+
+##### Predictons:
+![](Images/Florida_Predictions.png)
+
+##### Time Series
+![](Images/Florida_Time_Series.png)
+
+#### Oklaholma
+
+##### Predictons:
+![](Images/Oklahoma_Predictions.png)
+
+##### Time Series
+![](Images/Oklahoma_Time_Series.png)
+
+#### Texas
+
+##### Predictons:
+![](Images/Texas_Predictions.png)
+
+##### Time Series
+![](Images/Texas_Time_Series.png)
+
+### US Regions: time series and preditions using ARIMA (AutoRegressive Integrated Moving Average):
+
+#### Midwest
+
+#### Southeast
+
+#### Northeast
+
+#### Southwest
+
+#### West
 
 ### Database Workflow:
 
