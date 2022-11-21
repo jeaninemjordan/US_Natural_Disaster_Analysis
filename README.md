@@ -116,7 +116,7 @@ The dataset used during this analysis, us_disaster_declarations.csv, was sourced
 
 18. The transformed nd_df.csv was then exported into the Resources folder of the repository alongside the two new data frames, incident_declaration.csv and incident_duration.csv. 
 
-### Machine Learning Model:
+### Machine Learning Model & Statistical Analysis:
 
 The following algorithms will be tested and utilized during this analysis:
 
@@ -148,6 +148,12 @@ The following algorithms will be tested and utilized during this analysis:
 
 #### Alabama
 
+* The ARMA prediction stays the same at around 1.9 disasters with no variation from 2015 to 2020.
+The fit of the model is shown with an RMSE of 1.106.
+
+* The ARIMA prediction is decreasing from 2 to 1.9 disasters with little variation from 2015 to 2020. (Order parameters: (2, 1, 4))
+The fit of the model is shown to be better with an RMSE of 1.010.
+
 ##### Predictions:
 ![](Images/Alabama_Predictions.png)
 
@@ -155,6 +161,12 @@ The following algorithms will be tested and utilized during this analysis:
 ![](Images/Alabama_Time_Series.png)
 
 #### California
+
+* The ARMA prediction is staying the same at approximately 1.7 disasters with no variation from 2015 to 2020.
+The fit of the model is shown with an RMSE of 2.810.
+
+* The ARIMA prediction is increasing from approximately 2 to 4 disasters with little variation from 2015 to 2020. (Order parameters: (1, 4, 4))
+The fit of the model is shown to be better with an RMSE of 2.554.
 
 ##### Predictons:
 ![](Images/California_Predictions.png)
@@ -164,6 +176,12 @@ The following algorithms will be tested and utilized during this analysis:
 
 #### Florida
 
+* The ARMA prediction stays the same at around 2 disasters with no variation from 2015 to 2020.
+The fit of the model is shown with an RMSE of 0.725.
+
+* The ARIMA prediction is decreasing from approximately 1.9 disasters to 1 disaster, increasing from 1.9 to 2 disasters at the start before decreasing with little variation from 2015 to 2020. (Order parameters: (6, 3, 2))
+The fit of the model is shown to be better with an RMSE of 0.117.
+
 ##### Predictons:
 ![](Images/Florida_Predictions.png)
 
@@ -172,6 +190,12 @@ The following algorithms will be tested and utilized during this analysis:
 
 #### Oklaholma
 
+* The ARMA prediction is decreasing from approximately 2.5 to 2 disasters with no variation from 2015 to 2020.
+The fit of the model is shown to be better than the ARIMA model with an RMSE of 1.004.
+
+* The ARIMA prediction is decreasing from approximately 2.2 to 0.8 disasters with little variation from 2015 to 2020. (Order parameters: (1, 4, 2))
+The fit of the model is shown with an RMSE of 1.347.
+
 ##### Predictons:
 ![](Images/Oklahoma_Predictions.png)
 
@@ -179,6 +203,12 @@ The following algorithms will be tested and utilized during this analysis:
 ![](Images/Oklahoma_Time_Series.png)
 
 #### Texas
+
+* The ARMA prediction is staying the same at approximately 1.9 disasters with no variation from 2015 to 2020.
+The fit of the model is shown with an RMSE of 0.801.
+
+* The ARIMA prediction is decreasing from approximately 2.5 to 2 disasters, with a dip in the middle to 1.5 disasters, from 2015 to 2020. (Order parameters: (3, 1, 4))
+The fit of the model is shown to be better with an RMSE of 0.714.
 
 ##### Predictons:
 ![](Images/Texas_Predictions.png)
@@ -189,6 +219,12 @@ The following algorithms will be tested and utilized during this analysis:
 ### US Regions: time series and preditions using ARIMA (AutoRegressive Integrated Moving Average):
 
 #### Midwest
+
+* The ARMA prediction is decreasing approximately 15.5 to 15 disasters with no variation from 2015 to 2020.
+The fit of the model is shown with an RMSE of 6.957.
+
+* The ARIMA prediction is decreasing from approximately 13 to 10 disasters with high variation from 2015 to 2020. (Order parameters: (2, 3, 5))
+The fit of the model is shown to be better with an RMSE of 5.582.
 
 ##### Midwest Prediction
 ![](Images/Midwest_Predictions.png)
@@ -202,6 +238,12 @@ The following algorithms will be tested and utilized during this analysis:
 
 #### Southeast
 
+* The ARMA prediction is decreasing from approximately 14 to 13 disasters with no variation from 2015 to 2020.
+The fit of the model is shown with an RMSE of 3.735.
+
+* The ARIMA prediction is decreasing from approximately 20 to 15 disasters with some variation from 2015 to 2020.  (Order parameters: (1, 1, 5))
+The fit of the model is shown to be better with an RMSE of 2.154.
+
 ##### Southeast Prediction
 ![](Images/Southeast_Predictions.png)
 
@@ -213,6 +255,12 @@ The following algorithms will be tested and utilized during this analysis:
 * ARIMA RMSE:  2.1542422431320745
 
 #### Northeast
+
+* The ARMA prediction is decreasing from approximately 12 to 11 disasters with no variation from 2015 to 2020.
+The fit of the model is shown with an RMSE of 4.741.
+
+* The ARIMA prediction is decreasing from approximately 9 to 7 disasters with little variation from 2015 to 2020. (Order parameters: (2, 3, 2))
+The fit of the model is shown to be better with an RMSE of 3.087.
 
 ##### Northeast Prediction
 ![](Images/Northeast_Predictions.png)
@@ -226,6 +274,12 @@ The following algorithms will be tested and utilized during this analysis:
 
 #### Southwest
 
+* The ARMA prediction is very slightly decreasing at around 5.5 disasters with no variation from 2015 to 2020.
+The fit of the model is shown to be better than the ARIMA model with an RMSE of 0.801.
+
+* The ARIMA prediction is very slightly increasing at around 5.5  disasters with very little variation from 2015 to 2020. (Order parameters: (1, 1, 1))
+The fit of the model is shown with an RMSE of 0.846.
+
 ##### Southwest Prediction
 ![](Images/Southwest_Predictions.png)
 
@@ -237,6 +291,12 @@ The following algorithms will be tested and utilized during this analysis:
 * ARIMA RMSE: 0.8456739625167564
 
 #### West
+
+* The ARMA prediction is increasing from approximately 9 to 10 disasters with high variation from 2015 to 2020.
+The fit of the model is shown to be better than the ARIMA model with an RMSE of 4.957.
+
+* The ARIMA prediction is increasing from approximately 10 to 11 disasters with no variation from 2015 to 2020. (Order parameters: (1, 3, 3))
+The fit of the model is shown with an RMSE of 5.342.
 
 ##### West Prediction
 ![](Images/West_Predictions.png)
