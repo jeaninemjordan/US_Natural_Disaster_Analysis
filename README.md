@@ -394,4 +394,4 @@ https://www.youtube.com/watch?v=laYOgs7zY-o
 * We can use trend data from the data in order to forecast what types of disasters will most likely occur, where they may occur, and the time of year.
 
 ### Recommendations
-Our recommendation to improve this analysis would be to add a secondary dataset for a comparative analysis, such as monetary impact, population impact or climate change. Seasonal ARIMA and other models for time series and forecasting should be explored, as well as problems delcared in relation to other provided variables in the dataset. 
+Our recommendation to improve this analysis would be to add a secondary dataset for a comparative analysis, such as monetary impact, population impact or climate change. Seasonal ARIMA and other models for time series and forecasting should be explored, as well as problems declared in relation to other provided variables in the dataset. 
