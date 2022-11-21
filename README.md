@@ -371,6 +371,7 @@ https://public.tableau.com/views/US_Natural_Disaster_Analysis/Story1?:language=e
 
 ##### Snapshot of the Tableau dashboard in progress:
 ![](Images/tableau_dashboard_snapshot.jpg)
+![](Images/Dashboard_seasons_top_disaster.png)
 
 Additional visualizations will be used to analyze temporal, seasonal data to identify peak seasons for certain kinds of natural disasters in the top 10 states that are proven to be hot spots as well as the states with the least disasters during those seasons. These will be used to give insights to clients about potential states where they can pass pleasant seasons if they live somewhere with a high number of natural disasters. 
 
