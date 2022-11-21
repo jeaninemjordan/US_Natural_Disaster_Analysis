@@ -7,7 +7,9 @@
 
 ### Project Overview 
 
-Natural disasters can be catastrophic to the areas that are affected by them. The primary goal of this analysis is to observe the overall frequency of major disasters by geographical location at the regional and state level over time, and to create a model that predicts future incidents past on past events. The results produced in this analysis could be impactful when deciding where to relocate within the United States. 
+Natural disasters can be catastrophic to the areas and people who are affected by them. In 2022, surveys from Forbes Home indicated that almost a third of the survey respondents cited worsening weather conditions as a reason for them to move. The same articles stated that nearly two-thirds (62%) of US residents who planned on buying or selling their homes were hesitant to do so in areas at risk of natural disasters, severe temperatures, and rising sea levels. Almost three-quarters (71%) of Gen-Z participants stated they would be apprehensive to move to an area that was at risk of these factors as well. 
+
+The primary goal of this analysis is to observe the overall frequency of major disasters by geographical location at the regional and state level over time, and to create a model that predicts future incidents past on past events. The results produced in this analysis could be impactful when deciding where to relocate within the United States. 
 
 In this project, the following questions will be answered to create an analysis to provide prospective residents of the US with: 
 
@@ -302,8 +304,8 @@ https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zk
 ### Summary and Results
 * California had the most declared disasters overall, with 67 nationally declared natural disasters.
 * There has been an overall increase in events over time as seen in the time series maps. This indicates an increasing level of severity of natural events.
-* Where are the most declared disaster prone areas of the United States?
-* How can we predict disasters in various areas based on past events?
+* Where are the most declared disaster prone areas of the United States? XXX
+* How can we predict disasters in various areas based on past events? XXXX
 
-### Recommendation
+### Recommendations
 Our recommendation to improve this analysis would be to add a secondary dataset for a comparative analysis, such as monetary impact, population impact or climate change. Seasonal ARIMA and other models for time series and forecasting should be explored, as well as problems delcared in relation to other provided variables in the dataset. 
