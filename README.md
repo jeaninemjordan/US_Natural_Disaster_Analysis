@@ -160,6 +160,10 @@ The fit of the model is shown to be better with an RMSE of 1.010.
 ##### Time Series:
 ![](Images/Alabama_Time_Series.png)
 
+##### Alabama Root Mean Squared Error(RMSE)
+* ARMA RMSE:  1.1057830551149126
+* ARIMA RMSE:  1.0995657532866305
+
 #### California
 
 * The ARMA prediction is staying the same at approximately 1.7 disasters with no variation from 2015 to 2020.
@@ -173,6 +177,10 @@ The fit of the model is shown to be better with an RMSE of 2.554.
 
 ##### Time Series
 ![](Images/California_Time_Series.png)
+
+##### California Root Mean Squared Error(RMSE)
+* ARMA RMSE:  2.8095734822781377
+* ARIMA RMSE: 2.5539554091774845
 
 #### Florida
 
@@ -188,6 +196,10 @@ The fit of the model is shown to be better with an RMSE of 0.117.
 ##### Time Series
 ![](Images/Florida_Time_Series.png)
 
+##### Florida Root Mean Squared Error(RMSE)
+* ARMA RMSE:  0.7251698748663542
+* ARIMA RMSE:  0.11720733219450215
+
 #### Oklaholma
 
 * The ARMA prediction is decreasing from approximately 2.5 to 2 disasters with no variation from 2015 to 2020.
@@ -202,6 +214,10 @@ The fit of the model is shown with an RMSE of 1.347.
 ##### Time Series
 ![](Images/Oklahoma_Time_Series.png)
 
+##### Oklaholma Root Mean Squared Error(RMSE)
+* ARMA RMSE:  1.0039510615790976
+* ARIMA RMSE:  1.346969912321104
+
 #### Texas
 
 * The ARMA prediction is staying the same at approximately 1.9 disasters with no variation from 2015 to 2020.
@@ -215,6 +231,10 @@ The fit of the model is shown to be better with an RMSE of 0.714.
 
 ##### Time Series
 ![](Images/Texas_Time_Series.png)
+
+##### Texas Root Mean Squared Error(RMSE)
+* ARMA RMSE:  0.8010410159381002
+* ARIMA RMSE:  0.7136239431177938
 
 ### US Regions: time series and preditions using ARIMA (AutoRegressive Integrated Moving Average):
 
