@@ -270,7 +270,7 @@ The fit of the model is shown to be better with an RMSE of 2.154.
 ![](Images/Southeast_Predictions.png)
 
 ##### Southeast Time Series
-![](Images/Southeast_Predictions.png)
+![](Images/Southeast_Time_Series.png)
 
 ##### Southeast Root Mean Squared Error(RMSE)
 * ARMA RMSE:  3.735358277541541
@@ -288,7 +288,7 @@ The fit of the model is shown to be better with an RMSE of 3.087.
 ![](Images/Northeast_Predictions.png)
 
 ##### Northeast Time Series
-![](Images/Northeast_Predictions.png)
+![](Images/Northeast_Time_Series.png)
 
 ##### Northeast Root Mean Squared Error(RMSE)
 * ARMA RMSE:  4.741406279911125
@@ -306,7 +306,7 @@ The fit of the model is shown with an RMSE of 0.846.
 ![](Images/Southwest_Predictions.png)
 
 ##### Southwest Time Series
-![](Images/Southwest_Predictions.png)
+![](Images/Southwest_Time_Series.png)
 
 ##### Southwest Root Mean Squared Error(RMSE)
 * ARMA RMSE:  0.8008248266417702
@@ -324,7 +324,7 @@ The fit of the model is shown with an RMSE of 5.342.
 ![](Images/West_Predictions.png)
 
 ##### West Time Series
-![](Images/West_Predictions.png)
+![](Images/West_Time_Series.png)
 
 ##### West Root Mean Squared Error(RMSE)
 * ARMA RMSE:  4.95668562717005
