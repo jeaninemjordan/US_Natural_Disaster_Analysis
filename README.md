@@ -127,10 +127,12 @@ The following algorithms will be tested and utilized during this analysis:
 * ARMA is a forecasting algorithm that predicts time series based on its own past values. Uses past values, differencing (difference of consecutive values), and lagged forecast errors to predict.
 
 ###### Pros:
-* Performs well on short term forecasts, easy to implement. 
+* Performs well on short term forecasts.
+* Easy to implement. 
 
 ###### Cons: 
-* Subjectivity involved in determining order of the model, poorer performance for long term forecasts.
+* Subjectivity involved in determining order of the model.
+* Poorer performance for long term forecasts.
 
 ##### Preliminary data preprocessing:
 
