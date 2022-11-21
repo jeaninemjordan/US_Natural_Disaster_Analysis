@@ -270,7 +270,7 @@ Tableau and ArcGIS Pro 3.0 will be used to create visualizations for this presen
 ![](Images/EventsPerStateByYearFormat.webp)
 
 ##### ArcGIS Pro 3.0 video visualization of the number of incidents in each region by year:
-![](Images/XXXX.webp)
+![](Images/EventsbyRegion.webp)
 
 #### A link to the Tableau dashboard in progress is below:
 https://public.tableau.com/views/US_Natural_Disaster_Analysis/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
