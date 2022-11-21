@@ -354,8 +354,11 @@ Tableau and ArcGIS Pro 3.0 will be used to create visualizations for this presen
 ##### ArcGIS Pro 3.0 video visualization of the number of incidents in each region by year:
 ![](Images/EventsbyRegion.webp)
 
-#### A link to the Tableau dashboard in progress is below:
+#### A link to the Tableau dashboard is below:
 https://public.tableau.com/views/US_Natural_Disaster_Analysis/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+A link to the second Tableau dashboard created is below:
+https://public.tableau.com/views/NaturalDisasters_16689905936500/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
 
 ##### Area chart displaying total disasters over time, from 1980-2020, by disaster type:
 ![](Images/total_incidents_time.jpg)
