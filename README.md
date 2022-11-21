@@ -45,8 +45,9 @@ The dataset used during this analysis, us_disaster_declarations.csv, was sourced
 * PostgreSQL 13.7
 * pgAdmin 6.8
 * ArcGIS Pro 3.0
+* Google Presentations
 
-### Assigned Roles for Deliverable 3
+### Assigned Roles for Deliverable 4
 
 * Jeanine - Square: Managed the Github repository & README. Continued to clean and transform the dataset to suit the analysis & created visualizations.  
 * Deanna - X: Continued to refine, train and test the machine learning models chosen, created visualizations. 
@@ -118,36 +119,28 @@ The dataset used during this analysis, us_disaster_declarations.csv, was sourced
 The following algorithms will be tested and utilized during this analysis:
 
 ##### ARIMA (AutoRegressive Integrated Moving Average):
-* ARIMA is a forecasting algorithm that predicts a time series based on its own past values. ARIMA models use differencing to convert a non-stationary time series into stationary ones, predicting future values from historical data.
+* ARIMA is a forecasting algorithm that predicts a time series based on its own past values. ARIMA models use differencing to convert a non-stationary time series into stationary ones, predicting future values from historical data. Predicted values are a weighted linear combination of past values. Uses past values and lagged forecast errors to predict.
 
-##### KMeans: 
-* Pros: Easy implementation and interpretation, guarantees convergence.
-* Cons: Trouble clustering data where clusters are of varying sizes and density
+##### ARMA (Autoregressive Moving Average):
+* ARMA is a forecasting algorithm that predicts time series based on its own past values. Uses past values, differencing (difference of consecutive values), and lagged forecast errors to predict.
 
-##### KNN (Nearest Neighbors):
-* Pros: Simple, no assumptions
-* Cons: Slow algorithm
+###### Pros:
+* Performs well on short term forecasts, easy to implement. 
 
-##### Linear Regression:
-* Pros: Extrapolation beyond dataset, handles overfitting well
-* Cons: Prone to multicollinearity
+###### Cons: 
+* Subjectivity involved in determining order of the model, poorer performance for long term forecasts.
 
 ##### Preliminary data preprocessing:
 
-##### OneHotEncoder on:
-     * Incident Type
-     * Region
-     * State
+* Sum incidents by year
+* Create region and state dataframes.
      
-##### Preliminary Features:
-     * Incident Type
-     * Incident Month
-     * Incident Year
-     * Incident Duration
-
-##### Data train and test split:
-     * X = features without incident duration
-     * Y = incident duration
+##### Data Train and Test Split:
+* Train = Incidents in years before 2015
+* Test = Incidents in years from 2015 and on (2020)
+     
+##### Root Mean Squared Error(RMSE)
+* The standard deviation of the prediction errors and will be used to determine how accurately the model prediction fits the test. The lower the RMSE, the better the fit.
      
 ### Top 5 States: time series and preditions using ARIMA (AutoRegressive Integrated Moving Average):
 
@@ -201,6 +194,10 @@ The following algorithms will be tested and utilized during this analysis:
 ##### Midwest Time Series
 ![](Images/Midwest_Time_Series.png)
 
+##### Midwest Root Mean Squared Error(RMSE)
+* ARMA RMSE:  6.957494778174539
+* ARIMA RMSE:  5.582063919229161
+
 #### Southeast
 
 ##### Southeast Prediction
@@ -208,6 +205,10 @@ The following algorithms will be tested and utilized during this analysis:
 
 ##### Southeast Time Series
 ![](Images/Southeast_Predictions.png)
+
+##### Southeast Root Mean Squared Error(RMSE)
+* ARMA RMSE:  3.735358277541541
+* ARIMA RMSE:  2.1542422431320745
 
 #### Northeast
 
@@ -217,6 +218,10 @@ The following algorithms will be tested and utilized during this analysis:
 ##### Northeast Time Series
 ![](Images/Northeast_Predictions.png)
 
+##### Northeast Root Mean Squared Error(RMSE)
+* ARMA RMSE:  4.741406279911125
+* ARIMA RMSE: 3.087479272233823
+
 #### Southwest
 
 ##### Southwest Prediction
@@ -225,6 +230,10 @@ The following algorithms will be tested and utilized during this analysis:
 ##### Southwest Time Series
 ![](Images/Southwest_Predictions.png)
 
+##### Southwest Root Mean Squared Error(RMSE)
+* ARMA RMSE:  0.8008248266417702
+* ARIMA RMSE: 0.8456739625167564
+
 #### West
 
 ##### West Prediction
@@ -232,6 +241,10 @@ The following algorithms will be tested and utilized during this analysis:
 
 ##### West Time Series
 ![](Images/West_Predictions.png)
+
+##### West Root Mean Squared Error(RMSE)
+* ARMA RMSE:  4.95668562717005
+* ARIMA RMSE:  5.342802335311312
 
 ### Database Workflow:
 
@@ -253,6 +266,9 @@ Tableau and ArcGIS Pro 3.0 will be used to create visualizations for this presen
 
 ##### ArcGIS Pro 3.0 video visualization of the number of incidents in each state by year:
 ![](Images/EventsPerStateByYearFormat.webp)
+
+##### ArcGIS Pro 3.0 video visualization of the number of incidents in each region by year:
+![](Images/XXXX.webp)
 
 #### A link to the Tableau dashboard in progress is below:
 https://public.tableau.com/views/US_Natural_Disaster_Analysis/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
