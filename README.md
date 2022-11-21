@@ -270,7 +270,7 @@ Tableau and ArcGIS Pro 3.0 will be used to create visualizations for this presen
 ![](Images/EventsPerStateByYearFormat.webp)
 
 ##### ArcGIS Pro 3.0 video visualization of the number of incidents in each region by year:
-![](Images/XXXX.webp)
+![](Images/EventsbyRegion.webp)
 
 #### A link to the Tableau dashboard in progress is below:
 https://public.tableau.com/views/US_Natural_Disaster_Analysis/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
@@ -300,6 +300,10 @@ https://docs.google.com/presentation/d/1hPUla483eCj7iZsOuy-jvjMu_lQ1LE9z70fLbF-9
 The Google presentation is in progress (link below). The presentation was edited for grammar as well as style in order to rework the language to suit the purpose of a professional presentation to a client. The presentation was edited to include more visuals, more succinct language, and speaker notes. 
 
 https://docs.google.com/presentation/d/1F354MDtHzS25DnSC8x3uH112HeP4gVl2OF8Yy9zkmKw/edit#slide=id.p
+
+A mock final presentation was conducted with the participants of this analysis and uploaded to Youtube:
+
+https://www.youtube.com/watch?v=laYOgs7zY-o
 
 ### Summary and Results
 * California had the most declared disasters overall, with 67 nationally declared natural disasters.
