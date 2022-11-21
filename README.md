@@ -391,6 +391,13 @@ A mock final presentation was conducted with the participants of this analysis a
 
 https://www.youtube.com/watch?v=laYOgs7zY-o
 
+##### Speakers & Topics:
+* Gilda: introductory preamble, explanation of purpose of analysis and dataset
+* Jeanine: data cleaning/preprocessing
+* Deanna: preprocessing/machine learning model
+* Kirsten: database workflow and ArcGIS visualizations
+* Zoe: Tabelau presentation, summary of findings
+
 ### Summary and Results
 * California had the most declared disasters overall, with 67 nationally declared natural disasters.
 * There has been an overall increase in events over time as seen in the time series maps. This indicates an increasing level of severity of natural events.
