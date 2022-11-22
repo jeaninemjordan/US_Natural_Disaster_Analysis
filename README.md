@@ -51,11 +51,11 @@ The dataset used during this analysis, us_disaster_declarations.csv, was sourced
 
 ### Assigned Roles for Deliverable 4
 
-* Jeanine - Square: Managed the Github repository & README. Continued to clean and transform the dataset to suit the analysis & created visualizations.  
-* Deanna - X: Continued to refine, train and test the machine learning models chosen, created visualizations. 
-* Kirsten - X: Tested database integration, continued to enhance database functions, created visualizations using ArcGIS Pro 3.0.
-* Gilda - Triangle/Circle: Continued to develop and refine the presentation by working on the storyboard, visualizations and dashboard.
-* Zoe Lackey - Triangle/Circle: Continued to develop and refine the presentation by working on the storyboard, visualizations and dashboard.
+* Jeanine - Square/Circle: Managed the Github repository & README. Ensured pull requests were merged in and completed. Tidied repository & added conclusions. 
+* Deanna - X/Triangle: Tying up loose ends and wrapping up everything, quality assurance check.
+* Kirsten X/Triangle: Tying up loose ends and wrapping up everything, quality assurance check.
+* Gilda - Triangle/Circle: Put final touches on dashboard and presentation. 
+* Zoe Lackey - Triangle/Circle: Put final touches on dashboard and presentation. 
 
 ### Data Cleaning & Transforming Process
 
