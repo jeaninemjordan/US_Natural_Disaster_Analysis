@@ -348,6 +348,8 @@ The fit of the model is shown with an RMSE of 5.342.
 
 Tableau and ArcGIS Pro 3.0 will be used to create visualizations for this presentation.  Visualizations will include USA maps and choropleth maps and interpretations of top states divided up by counties (California and Texas) will be used to give further analysis in the presentation. 
 
+The datasource used in the ArcGIS Pro project was the Postgres database used for the project. 
+
 ##### ArcGIS Pro 3.0 video visualization of the number of incidents in each state by year:
 ![](Images/EventsPerStateByYearFormat.webp)
 
