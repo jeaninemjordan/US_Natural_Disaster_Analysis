@@ -407,7 +407,7 @@ https://www.youtube.com/watch?v=laYOgs7zY-o
 * There has been an overall increase in events over time as seen in the time series maps. This indicates an increasing level of severity of natural events.
 * The most disasters happened in the Midwest and Southeast regions. 
 * We can use trend data from the data in order to forecast what types of disasters will most likely occur, where they may occur, and the time of year.
-* From the forecasting models, California and the West region are predicted to be increasing in the amount of major disasters for the short-term future, with the rest of the states and regions forecasted to be either staying the same or decreasing.
+* From the forecasting models, California, Texas, and the West region are predicted to be increasing in the amount of major disasters for the short-term future, with the rest of the states and regions forecasted to be either staying the same or decreasing.
 
 ### Recommendations
 Our recommendation to improve this analysis would be to add a secondary dataset for a comparative analysis, such as monetary impact, population impact or climate change. Seasonal ARIMA and other models for time series and forecasting should be explored, as well as programs declared in relation to other provided variables in the dataset. 
